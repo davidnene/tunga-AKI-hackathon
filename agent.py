@@ -6,8 +6,6 @@ import pandas as pd
 import environ
 
 env = environ.Env()
-environ.Env.read_env()
-
 API_KEY = env("apikey")
 
 
