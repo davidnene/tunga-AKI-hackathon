@@ -6,7 +6,7 @@ import pandas as pd
 import environ
 
 env = environ.Env()
-API_KEY = env("apikey")
+API_KEY = env.get_value("apikey")
 
 
 def create_agent(filename: str):
