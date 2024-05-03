@@ -1,11 +1,15 @@
 from langchain import OpenAI
 from langchain.agents import create_pandas_dataframe_agent
 import pandas as pd
+import streamlit as st
 
 # Setting up the api key
 import environ
+import os
 
+os.environ["apikey"] == st.secrets["apikey"]
 env = environ.Env()
+
 API_KEY = env.get_value("apikey")
 
 
