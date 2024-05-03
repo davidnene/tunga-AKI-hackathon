@@ -4,7 +4,6 @@ import json
 
 from agent import query_agent, create_agent
 
-
 def decode_response(response: str) -> dict:
     """This function converts the string response from the model to a dictionary object.
 
@@ -52,24 +51,64 @@ def write_response(response_dict: dict):
         df = pd.DataFrame(data["data"], columns=data["columns"])
         st.table(df)
 
+def handle_history():
+    if st.session_state.chat_history:
+        for i,message in enumerate(st.session_state.chat_history):
+            if i % 2 == 0:
+                st.write( message)
+            else:
+                st.write(message)
 
-st.title("👨‍💻 Chat with your CSV")
+def main():
 
-st.write("Please upload your CSV file below.")
+    if "agent" not in st.session_state:
+        st.session_state.agent = None
+    if "data" not in st.session_state:
+        st.session_state.data = None
+    if "chat_history" not in st.session_state:
+        st.session_state.chat_history = []
 
-data = st.file_uploader("Upload a CSV")
+    
+    st.title("👨‍💻 Insurance Data Chatbot")
+    with st.sidebar:
+        st.session_state.data = st.file_uploader("Upload your Insurance CSV")
+        if st.button("Initiate agent"):
+            with st.spinner("Initiating.."):
+                st.session_state.agent = create_agent(st.session_state.data)
+                st.success('Agent successfully initiated!', icon="✅")
 
-query = st.text_area("Insert your query")
+    query = st.text_input("What would you like to ask?")
+    
+    # # Create an agent from the CSV file.
+    # if not query and not st.session_state.data:
+    #     st.warning("Please upload csv and initiate agent", icon='⚠️')
+    # elif not query and st.session_state.data !=None:
+    #     st.warning("Please ask a question", icon='⚠️')
+    # else:
+    #     # Query the agent.
+    if st.button("query"):
+        try:
+            if not query and not st.session_state.data:
+                st.warning("Please upload csv and initiate agent", icon='⚠️')
+            elif not query and st.session_state.data !=None:
+                st.warning("Please ask a question", icon='⚠️')
+            else:
+                st.session_state.chat_history.append(query)
+                response = query_agent(agent=st.session_state.agent, query=query)
+                # Decode the response.
+                decoded_response = decode_response(response)
+                # Write the response to the Streamlit app.
+                st.session_state.chat_history.append(response)
+                write_response(decoded_response)
+        except:
+            # st.write(e)
+            st.warning("Please upload csv and initiate agent", icon='⚠️')
+        
+    if st.checkbox("show history"):
+        handle_history()
+        if st.button("clear history"):
+            st.session_state.chat_history = []
 
-if st.button("Submit Query", type="primary"):
-    # Create an agent from the CSV file.
-    agent = create_agent(data)
 
-    # Query the agent.
-    response = query_agent(agent=agent, query=query)
-
-    # Decode the response.
-    decoded_response = decode_response(response)
-
-    # Write the response to the Streamlit app.
-    write_response(decoded_response)
+if __name__ == '__main__':
+    main()
