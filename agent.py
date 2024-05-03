@@ -7,10 +7,10 @@ import streamlit as st
 import environ
 import os
 
-os.environ["apikey"] == st.secrets["apikey"]
-env = environ.Env()
+# os.environ["apikey"] == st.secrets["apikey"]
+# env = environ.Env()
 
-API_KEY = env.get_value("apikey")
+# API_KEY = env.get_value("apikey")
 
 
 def create_agent(filename: str):
@@ -25,7 +25,7 @@ def create_agent(filename: str):
     """
 
     # Create an OpenAI object.
-    llm = OpenAI(openai_api_key=API_KEY,model_name = 'gpt-4')
+    llm = OpenAI(model_name = 'gpt-4')
 
     # Read the CSV file into a Pandas DataFrame.
     df = pd.read_csv(filename)
