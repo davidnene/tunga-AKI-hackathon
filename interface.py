@@ -51,16 +51,7 @@ def write_response(response_dict: dict):
         df = pd.DataFrame(data["data"], columns=data["columns"])
         st.table(df)
 
-def handle_history():
-    if st.session_state.chat_history:
-        for i,message in enumerate(st.session_state.chat_history):
-            if i % 2 == 0:
-                st.write( message)
-            else:
-                st.write(message)
-
 def main():
-
     if "agent" not in st.session_state:
         st.session_state.agent = None
     if "data" not in st.session_state:
@@ -68,47 +59,75 @@ def main():
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
 
-    
-    st.title("👨‍💻 Insurance Data Chatbot")
+
+    st.title("👨‍💻 :blue[Insurance Data Chatbot]")
+    st.subheader("""
+                 Generating Complex Analytical Insights from insurance data\n  
+                 - Saves time used in analytical work by 80%\n
+                 - Able to perform complex analysis and generate tables and graphs upon request
+                 """)
+    st.divider()
     with st.sidebar:
+        st.subheader("Data Upload")
         st.session_state.data = st.file_uploader("Upload your Insurance CSV")
         if st.button("Initiate agent"):
             with st.spinner("Initiating.."):
                 st.session_state.agent = create_agent(st.session_state.data)
                 st.success('Agent successfully initiated!', icon="✅")
+        st.divider()
+        st.markdown(
+            """
+                **:blue[Project Contributors]**\n
+                David Nene, MSc - Software Engineer | AI
 
-    query = st.text_input("What would you like to ask?")
-    
-    # # Create an agent from the CSV file.
-    # if not query and not st.session_state.data:
-    #     st.warning("Please upload csv and initiate agent", icon='⚠️')
-    # elif not query and st.session_state.data !=None:
-    #     st.warning("Please ask a question", icon='⚠️')
-    # else:
-    #     # Query the agent.
-    if st.button("query"):
+
+                Derrick Lubanga, MSc - Data Scientist
+
+
+                Linda Kelida, MSc - Data Engineer
+
+            """
+        )
+
+    if "messages" not in st.session_state:
+        st.session_state.messages = []
+
+    # Display chat messages from history on app rerun
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            if message["content"] is not None:
+                st.markdown(message["content"])
+
+    # React to user input
+    if prompt := st.chat_input("What is up?"):
         try:
-            if not query and not st.session_state.data:
+            if not prompt and not st.session_state.data:
                 st.warning("Please upload csv and initiate agent", icon='⚠️')
-            elif not query and st.session_state.data !=None:
+            elif not prompt and st.session_state.data !=None:
                 st.warning("Please ask a question", icon='⚠️')
             else:
-                st.session_state.chat_history.append(query)
-                response = query_agent(agent=st.session_state.agent, query=query)
-                # Decode the response.
+            # Display user message in chat message container
+                st.chat_message("user").markdown(prompt)
+                # Add user message to chat history
+                st.session_state.messages.append({"role": "user", "content": prompt})
+
+                response = query_agent(agent=st.session_state.agent, query=prompt)
                 decoded_response = decode_response(response)
-                # Write the response to the Streamlit app.
-                st.session_state.chat_history.append(response)
-                write_response(decoded_response)
-        except:
-            # st.write(e)
+                # Display assistant response in chat message container
+                with st.chat_message("assistant"):
+                    write_response(decoded_response)
+                # Add assistant response to chat history
+                if response == str:
+                    st.session_state.messages.append({"role": "assistant", "content": response})
+        except Exception as e:
+            st.write(e.args[0])
             st.warning("Please upload csv and initiate agent", icon='⚠️')
-        
-    if st.checkbox("show history"):
-        handle_history()
-        if st.button("clear history"):
-            st.session_state.chat_history = []
+    if st.session_state.messages != []:
+        if st.button("Clear chat"):
+            st.session_state.messages = []
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
+
+
