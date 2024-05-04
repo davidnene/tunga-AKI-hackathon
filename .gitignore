@@ -2,5 +2,4 @@
 *.csv
 bin
 __pycache__
-screenshots
 .env
