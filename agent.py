@@ -25,7 +25,7 @@ def create_agent(filename: str):
     """
 
     # Create an OpenAI object.
-    llm = OpenAI(model_name = 'gpt-4-turbo')
+    llm = OpenAI(model_name = 'gpt-3.5-turbo-0125')
 
     # Read the CSV file into a Pandas DataFrame.
     df = pd.read_csv(filename)
