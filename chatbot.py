@@ -86,7 +86,8 @@ def main():
 
                 Linda Kelida, MSc - Data Engineer
 
-                CHepkirui Tonui, MSc - BI Analyst
+                
+                Chepkirui Tonui, MSc - BI Analyst
 
             """
         )
