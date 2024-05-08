@@ -65,7 +65,7 @@ def query_agent(agent, query):
             {"answer": "The title with the highest rating is 'Gilead'"}
             
             If you do not know the answer, reply as follows:
-            {"answer": "I do not know."}
+            {"answer": ""Please provide information related to the data and be more specific.""}
             
             Return all output as a string.
             
