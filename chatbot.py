@@ -98,8 +98,8 @@ def main():
     # Display chat messages from history on app rerun
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
-            if message["content"] is not None:
-                st.markdown(message["content"])
+            # if message["content"] is not None:
+            st.write(message["content"])
 
     # React to user input
     if prompt := st.chat_input("What is up?"):
@@ -120,8 +120,8 @@ def main():
                 with st.chat_message("assistant"):
                     write_response(decoded_response)
                 # Add assistant response to chat history
-                if response == str:
-                    st.session_state.messages.append({"role": "assistant", "content": response})
+                if 'answer' in decoded_response:
+                    st.session_state.messages.append({"role": "assistant", "content": decoded_response['answer']})
         except Exception as e:
             st.write(e.args[0])
             st.warning("Please upload csv and initiate agent", icon='⚠️')

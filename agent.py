@@ -25,7 +25,7 @@ def create_agent(filename: str):
     """
 
     # Create an OpenAI object.
-    llm = OpenAI(model_name = 'gpt-3.5-turbo-0125')
+    llm = OpenAI(model_name = 'gpt-4')
 
     # Read the CSV file into a Pandas DataFrame.
     df = pd.read_csv(filename)
@@ -65,7 +65,7 @@ def query_agent(agent, query):
             {"answer": "The title with the highest rating is 'Gilead'"}
             
             If you do not know the answer, reply as follows:
-            {"answer": "I do not know."}
+            {"answer": ""Please provide information related to the data and be more specific.""}
             
             Return all output as a string.
             
