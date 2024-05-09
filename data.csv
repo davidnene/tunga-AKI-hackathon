@@ -1,0 +1,401 @@
+CustomerID,Age,Gender,MaritalStatus,Income,Region,PolicyType,PolicyStartYear,PremiumMonthly,ClaimsMade,ClaimsRejected,LastClaimAmount,RenewalStatus,CustomerSatisfaction,NumberOfInquiriesLastYear,HouseType,LifeInsuranceType,HealthInsurancePlan,CustomerFeedbackScore,DigitalPlatformUsage,PolicyUpgradesLastYear,FraudulentClaims,PolicyDurationMonths,CoverDetails,TimeToResolutionDays,ClaimReasons,CommunicationMeans,CustomerServiceFrequency,ServiceNature,PolicyDiscounts,PremiumPaymentFrequency,MissedPayments,VehicleType
+1,67,M,Single,65470,Eldoret,Agricultural,2019,190,3,2,2300,Not Renewed,1,0,Apartment,Term,,5,Medium,2,0,105,Comprehensive,17,Maturity,Skype,1,Query,4,Weekly,4,Subaru Forester
+2,58,M,Single,40237,Busia,Education,2016,188,2,2,1500,Not Renewed,4,0,,Term,Basic,1,Low,1,1,438,Basic,26,Death,Phone Call,9,Feedback,24,Semi-Annual,5,Nissan X-Trail
+3,19,F,Divorced,37310,Turkana,Property,2021,123,3,2,700,Renewed,1,3,Bungalow,Term,Basic,5,Low,2,0,351,Comprehensive,4,Maturity,Phone Call,5,Feedback,15,Quarterly,5,Mazda CX-5
+4,56,F,Single,44572,Busia,Education,2020,173,2,1,1900,Not Renewed,5,3,Apartment,Whole,Basic,8,Low,2,0,273,Comprehensive,26,Maturity,Skype,2,Feedback,0,Annually,5,Toyota Land Cruiser V8
+5,28,F,Single,33569,Nakuru,Education,2018,196,4,1,2100,Not Renewed,2,0,Rental,,Basic,5,Low,2,1,109,Basic,19,Death,Email,2,Update,20,Annually,5,Toyota Harrier
+6,58,F,Single,64360,Kiambu,Motor,2020,155,3,0,400,Renewed,2,3,Rental,Whole,Premium,1,Low,1,0,74,Premium,15,Floods,In-Person,8,Query,13,Weekly,1,Subaru Forester
+7,44,F,Widowed,79708,Turkana,Property,2019,114,3,2,700,Renewed,1,3,Rental,Term,Basic,5,Low,0,1,191,Basic,19,Maturity,Email,6,Feedback,14,Monthly,5,Toyota Harrier
+8,50,F,Married,58466,Nakuru,Property,2020,127,3,1,2400,Not Renewed,3,0,Bungalow,Whole,Premium,3,Low,0,1,23,Premium,3,Floods,Email,4,Query,8,Weekly,1,Toyota Harrier
+9,58,M,Single,36206,Turkana,Property,2019,100,2,0,1000,Renewed,3,1,Bungalow,,,4,High,2,0,105,Comprehensive,23,Maturity,Email,9,Query,14,Semi-Annual,5,Toyota Land Cruiser V8
+10,19,F,Single,45552,Eldoret,Education,2017,182,4,2,200,Not Renewed,4,1,Bungalow,,Premium,2,Medium,2,1,124,Comprehensive,4,Maturity,Text,6,Update,16,Semi-Annual,5,Toyota Land Cruiser V8
+11,35,M,Widowed,78636,Kisumu,Agricultural,2018,113,0,2,2500,Renewed,3,2,Rental,Whole,Basic,10,Medium,0,1,469,Comprehensive,17,Maturity,Phone Call,8,Feedback,24,Quarterly,5,Mazda CX-5
+12,20,M,Widowed,62210,Kisumu,Property,2017,173,0,1,1300,Renewed,1,0,,Whole,Premium,10,High,2,1,217,Standard,10,Maturity,Email,0,Feedback,23,Quarterly,5,Toyota Harrier
+13,40,F,Widowed,35787,Nakuru,Livestock,2016,183,2,2,2700,Not Renewed,3,3,Bungalow,,Premium,9,Low,1,0,333,Premium,5,Floods,Phone Call,6,Query,3,Semi-Annual,5,Mercedes
+14,64,F,Widowed,58871,Turkana,Education,2019,195,1,2,1300,Renewed,5,0,Rental,Term,Basic,2,High,0,1,461,Standard,2,Maturity,Skype,5,Complaint,11,Semi-Annual,5,Mercedes
+15,31,F,Married,59514,Mombasa,Motor,2015,149,3,1,2300,Renewed,2,0,Rental,Term,Basic,8,Medium,1,0,90,Standard,5,Floods,In-Person,9,Update,26,Semi-Annual,3,Toyota Harrier
+16,36,M,Married,72639,Eldoret,Agricultural,2015,112,1,2,1500,Renewed,4,3,Rental,,Premium,1,Low,1,0,375,Basic,2,Floods,Skype,8,Update,25,Weekly,5,Mercedes
+17,57,F,Single,64224,Kitui,Livestock,2015,146,3,2,3000,Renewed,2,1,Apartment,Term,Basic,3,Low,2,1,102,Standard,15,Drought,Skype,0,Update,4,Semi-Annual,5,Mazda CX-5
+18,41,M,Widowed,60794,Garissa,Livestock,2021,175,2,2,2100,Not Renewed,3,3,Apartment,,Premium,4,Low,1,1,362,Basic,22,Maturity,Text,3,Update,28,Annually,5,Toyota Harrier
+19,62,F,Single,38493,Eldoret,Motor,2015,105,0,1,1500,Not Renewed,1,0,Apartment,Whole,Basic,3,High,2,1,154,Basic,17,Accident,In-Person,8,Feedback,4,Monthly,5,Mazda CX-5
+20,59,F,Single,51397,Kiambu,Agricultural,2016,190,4,2,2600,Not Renewed,2,0,Rental,,Basic,6,Medium,0,0,133,Standard,21,Drought,Skype,3,Feedback,10,Semi-Annual,5,Toyota Land Cruiser V8
+21,30,F,Married,63384,Nairobi,Education,2020,188,2,0,1400,Renewed,1,2,Bungalow,Whole,Premium,7,Medium,2,1,152,Premium,25,Death,Skype,9,Complaint,27,Monthly,5,Toyota Harrier
+22,61,F,Single,65606,Mombasa,Health,2019,181,1,1,1500,Not Renewed,1,1,Rental,Whole,,8,Medium,0,0,311,Premium,9,Maturity,In-Person,2,Update,5,Weekly,5,Subaru Forester
+23,40,F,Married,50782,Turkana,Agricultural,2020,173,0,2,1200,Renewed,3,2,Rental,Term,,6,Medium,1,1,260,Premium,8,Floods,In-Person,8,Update,6,Monthly,5,Mazda CX-5
+24,44,M,Married,55919,Kisumu,Motor,2015,199,4,0,1200,Not Renewed,5,3,Apartment,,Premium,1,Low,2,1,346,Premium,4,Floods,Skype,1,Query,23,Weekly,5,Nissan X-Trail
+25,31,F,Widowed,66285,Kisumu,Livestock,2015,115,2,2,1100,Not Renewed,3,1,Apartment,,Basic,7,High,1,0,494,Premium,18,Drought,In-Person,3,Feedback,30,Annually,5,Subaru Forester
+26,62,F,Divorced,65687,Turkana,Education,2015,172,0,0,2800,Not Renewed,1,1,Bungalow,Term,Premium,3,Medium,0,0,416,Standard,2,Death,Skype,5,Update,13,Weekly,5,Nissan X-Trail
+27,48,F,Divorced,72721,Nakuru,Agricultural,2015,192,0,0,400,Renewed,1,1,Rental,Whole,Basic,8,Low,2,1,296,Standard,17,Drought,Skype,1,Complaint,23,Weekly,5,Nissan X-Trail
+28,63,M,Divorced,46236,Mombasa,Health,2015,129,3,1,2100,Renewed,3,2,Apartment,Whole,Basic,3,Medium,0,0,388,Comprehensive,13,Maturity,Text,7,Complaint,10,Quarterly,5,Toyota Harrier
+29,26,M,Single,59732,Turkana,Health,2021,194,1,1,0,Renewed,3,3,Apartment,Whole,,6,Low,0,1,194,Premium,28,Natural Disaster,Email,7,Feedback,29,Semi-Annual,5,Subaru Forester
+30,18,F,Widowed,74506,Kiambu,Property,2019,165,2,2,600,Renewed,5,2,Rental,Whole,Premium,1,Low,0,1,446,Standard,20,Maturity,Skype,0,Complaint,12,Semi-Annual,5,Mazda CX-5
+31,53,F,Single,74749,Kiambu,Property,2015,124,3,1,1500,Renewed,4,3,Bungalow,Whole,Premium,9,Medium,0,0,279,Comprehensive,23,Maturity,Phone Call,2,Complaint,1,Annually,5,Mercedes
+32,42,M,Widowed,34158,Busia,Motor,2020,190,2,1,1100,Not Renewed,2,2,Rental,Whole,Basic,6,Medium,1,0,163,Premium,24,Accident,Email,9,Feedback,24,Annually,5,Mercedes
+33,54,F,Widowed,66485,Kitui,Agricultural,2019,135,0,1,2500,Renewed,2,3,Rental,Whole,Premium,5,Low,1,0,462,Basic,23,Maturity,Email,8,Update,6,Semi-Annual,5,Toyota Harrier
+34,39,F,Single,45088,Nakuru,Agricultural,2021,195,4,1,1700,Not Renewed,2,1,,,Basic,2,High,1,0,316,Comprehensive,15,Floods,Email,4,Update,19,Quarterly,5,Toyota Harrier
+35,50,M,Married,35256,Nairobi,Livestock,2018,136,4,0,1400,Renewed,3,0,,,Basic,6,Medium,1,0,24,Standard,7,Maturity,Text,5,Complaint,3,Semi-Annual,1,Mercedes
+36,48,F,Divorced,35648,Turkana,Livestock,2017,136,2,2,1500,Renewed,2,1,Bungalow,Whole,Premium,3,Low,1,0,255,Basic,7,Maturity,Skype,3,Complaint,26,Quarterly,5,Toyota Harrier
+37,65,M,Divorced,72252,Turkana,Livestock,2020,190,3,2,2900,Renewed,4,2,Apartment,,Basic,6,High,2,0,238,Basic,14,Death,Text,9,Update,7,Annually,5,Mazda CX-5
+38,38,F,Widowed,56046,Busia,Property,2017,128,1,0,2600,Not Renewed,4,3,Rental,,Basic,1,Low,1,1,347,Basic,20,Maturity,Skype,1,Feedback,19,Monthly,5,Mazda CX-5
+39,23,M,Single,75556,Nairobi,Agricultural,2018,129,1,0,1500,Not Renewed,3,2,Bungalow,,,10,Low,1,1,51,Comprehensive,23,Drought,Text,10,Complaint,28,Annually,2,Mazda CX-5
+40,50,M,Single,64568,Busia,Agricultural,2015,141,4,0,500,Not Renewed,2,3,Apartment,Whole,Basic,5,Low,1,0,477,Standard,9,Maturity,Text,7,Query,30,Annually,5,Nissan X-Trail
+41,55,M,Single,72413,Kiambu,Health,2015,161,3,1,2400,Renewed,5,3,Rental,Term,,4,Low,2,1,61,Basic,28,Maturity,Phone Call,10,Feedback,21,Weekly,3,Toyota Land Cruiser V8
+42,48,M,Widowed,37546,Garissa,Property,2015,173,2,1,1600,Not Renewed,2,0,Apartment,Whole,Basic,4,Low,0,1,172,Premium,28,Theft,Text,5,Complaint,20,Weekly,5,Mazda CX-5
+43,27,M,Single,79697,Nairobi,Education,2019,100,3,1,2200,Renewed,1,0,Rental,Whole,Premium,5,High,2,0,478,Basic,3,Maturity,In-Person,4,Complaint,18,Weekly,5,Toyota Harrier
+44,53,F,Divorced,55631,Garissa,Property,2020,126,4,1,1300,Renewed,1,2,,,,8,Medium,0,0,190,Basic,22,Maturity,Phone Call,8,Query,12,Weekly,5,Mazda CX-5
+45,64,F,Single,77131,Kisumu,Education,2019,174,2,1,300,Renewed,5,0,Rental,,Premium,3,High,1,0,466,Comprehensive,2,Death,Text,0,Query,13,Quarterly,5,Toyota Land Cruiser V8
+46,56,F,Married,33309,Garissa,Health,2016,150,3,1,0,Not Renewed,3,1,Bungalow,Whole,Premium,4,Low,0,0,273,Comprehensive,16,Natural Disaster,Email,4,Update,9,Semi-Annual,5,Mazda CX-5
+47,33,M,Widowed,70627,Kitui,Motor,2020,161,3,2,1000,Renewed,5,1,Apartment,Term,Basic,9,Medium,2,1,192,Standard,2,Theft,In-Person,5,Feedback,10,Monthly,5,Toyota Land Cruiser V8
+48,52,M,Divorced,69703,Eldoret,Agricultural,2019,189,2,2,2000,Renewed,4,1,Apartment,Term,Basic,4,High,2,1,448,Premium,6,Maturity,In-Person,4,Feedback,1,Annually,5,Mazda CX-5
+49,42,M,Single,32975,Narok,Health,2015,109,4,2,1000,Not Renewed,2,2,Apartment,Term,Premium,8,Medium,0,0,177,Comprehensive,17,Natural Disaster,In-Person,5,Update,24,Quarterly,5,Nissan X-Trail
+50,45,M,Single,69291,Kisumu,Agricultural,2020,170,3,2,2900,Renewed,5,2,Rental,Term,,8,Medium,2,1,448,Basic,20,Floods,Phone Call,5,Feedback,25,Monthly,5,Subaru Forester
+51,31,M,Widowed,39309,Nakuru,Livestock,2017,122,2,0,500,Renewed,1,1,,,,10,High,1,0,53,Standard,5,Drought,Text,6,Feedback,8,Quarterly,3,Mercedes
+52,28,M,Married,35908,Kiambu,Motor,2019,182,1,1,3000,Renewed,4,2,Bungalow,,Basic,9,Medium,1,0,366,Basic,4,Theft,Text,3,Feedback,16,Quarterly,5,Mercedes
+53,36,M,Divorced,32949,Nairobi,Motor,2017,121,1,2,1500,Renewed,3,1,,Term,,6,Low,2,0,57,Basic,18,Maturity,Email,10,Feedback,25,Annually,4,Nissan X-Trail
+54,59,M,Widowed,55320,Garissa,Health,2020,172,4,0,2200,Renewed,2,3,Bungalow,,Premium,3,High,1,1,246,Comprehensive,18,Accident,Email,7,Feedback,2,Semi-Annual,5,Toyota Harrier
+55,41,M,Divorced,47900,Eldoret,Motor,2020,191,3,0,600,Renewed,2,3,Apartment,,Premium,7,Medium,0,0,322,Standard,13,Accident,In-Person,6,Query,23,Weekly,5,Toyota Harrier
+56,39,M,Single,45852,Mombasa,Education,2019,146,1,1,1100,Renewed,3,2,,Term,,5,High,0,1,133,Premium,15,Drought,Email,8,Feedback,5,Semi-Annual,2,Mercedes
+57,42,F,Single,67812,Kisumu,Motor,2021,151,4,1,1800,Renewed,4,0,Rental,,Basic,2,Medium,0,1,487,Premium,22,Theft,Phone Call,6,Query,4,Annually,5,Mazda CX-5
+58,65,F,Single,46895,Kisumu,Agricultural,2020,162,2,2,2700,Not Renewed,3,1,Rental,Term,Premium,4,High,2,0,309,Comprehensive,7,Floods,Text,2,Feedback,4,Annually,5,Toyota Harrier
+59,41,F,Single,45951,Busia,Agricultural,2021,196,2,1,1500,Not Renewed,4,0,Rental,,Basic,1,Low,0,0,137,Comprehensive,4,Drought,In-Person,2,Update,21,Annually,5,Subaru Forester
+60,50,M,Married,33756,Garissa,Agricultural,2015,120,4,0,1500,Not Renewed,3,3,Apartment,Whole,Premium,7,High,2,1,23,Standard,10,Floods,Email,7,Complaint,14,Monthly,2,Mazda CX-5
+61,44,F,Widowed,66313,Narok,Agricultural,2018,120,4,1,600,Renewed,1,1,Apartment,,Basic,2,Low,1,0,331,Premium,6,Maturity,Phone Call,4,Query,22,Semi-Annual,5,Toyota Land Cruiser V8
+62,64,M,Widowed,41644,Kitui,Education,2021,159,0,1,1300,Renewed,1,3,Rental,,Basic,1,Medium,1,0,169,Premium,25,Maturity,Phone Call,3,Feedback,16,Semi-Annual,5,Nissan X-Trail
+63,64,F,Married,67279,Mombasa,Property,2016,170,3,1,1800,Not Renewed,5,2,Bungalow,,Premium,5,Medium,0,1,276,Premium,18,Theft,Email,7,Update,8,Quarterly,5,Subaru Forester
+64,36,F,Married,72707,Narok,Livestock,2019,142,1,1,100,Renewed,5,0,Apartment,Term,Basic,5,Medium,1,0,390,Basic,15,Death,Text,5,Complaint,2,Quarterly,5,Mercedes
+65,50,F,Divorced,67890,Nakuru,Health,2021,176,0,1,1000,Renewed,3,0,Rental,,Premium,2,Medium,0,0,91,Premium,22,Maturity,Email,1,Query,19,Quarterly,4,Toyota Land Cruiser V8
+66,52,M,Divorced,71466,Mombasa,Agricultural,2021,137,4,0,2400,Not Renewed,2,2,Apartment,,Premium,3,High,1,0,318,Basic,4,Floods,In-Person,3,Complaint,25,Annually,5,Subaru Forester
+67,62,M,Widowed,63771,Eldoret,Motor,2015,175,3,0,2900,Renewed,4,3,Rental,Whole,Premium,10,High,1,0,16,Standard,2,Theft,Email,10,Update,16,Semi-Annual,0,Mercedes
+68,58,F,Widowed,34642,Kisumu,Agricultural,2020,108,3,0,2200,Not Renewed,4,0,Bungalow,,Premium,10,Medium,2,1,244,Basic,21,Floods,Phone Call,3,Query,28,Annually,5,Nissan X-Trail
+69,44,F,Married,37743,Turkana,Motor,2017,152,2,2,500,Renewed,2,1,Rental,Whole,Premium,1,High,2,1,267,Standard,22,Maturity,Email,5,Complaint,26,Monthly,5,Mercedes
+70,68,M,Divorced,76311,Garissa,Livestock,2020,172,1,0,1600,Not Renewed,3,0,,,Basic,7,Low,2,0,348,Premium,24,Accident,Text,5,Feedback,9,Quarterly,5,Subaru Forester
+71,31,F,Married,76750,Narok,Livestock,2016,111,3,2,200,Renewed,1,1,Bungalow,Whole,Premium,1,Medium,2,0,55,Premium,2,Maturity,Skype,0,Query,2,Annually,2,Mercedes
+72,40,M,Divorced,59349,Narok,Livestock,2020,193,1,0,2600,Renewed,4,2,Rental,Term,Basic,7,Medium,0,1,388,Standard,4,Maturity,Email,7,Complaint,17,Annually,5,Nissan X-Trail
+73,42,M,Married,54849,Kisumu,Motor,2021,115,0,2,1900,Renewed,5,2,Rental,Whole,Basic,1,Medium,1,0,342,Comprehensive,19,Accident,Text,5,Update,17,Monthly,5,Nissan X-Trail
+74,49,M,Divorced,61632,Kiambu,Agricultural,2015,127,3,1,1600,Renewed,4,1,Bungalow,Term,Basic,3,Medium,2,0,94,Standard,26,Floods,Text,2,Update,29,Weekly,3,Toyota Land Cruiser V8
+75,25,M,Married,32166,Kitui,Livestock,2018,106,0,2,2100,Renewed,1,0,Bungalow,Term,Basic,2,Low,0,1,369,Comprehensive,11,Floods,Phone Call,8,Query,16,Semi-Annual,5,Subaru Forester
+76,21,F,Married,44752,Nakuru,Education,2017,181,2,1,100,Not Renewed,5,0,Bungalow,,Basic,8,Low,1,1,446,Basic,23,Maturity,Text,1,Complaint,23,Weekly,5,Toyota Land Cruiser V8
+77,43,F,Single,42896,Garissa,Motor,2017,174,0,2,2200,Not Renewed,1,3,Bungalow,Whole,Premium,10,Low,0,1,457,Basic,27,Accident,Text,10,Query,2,Quarterly,5,Toyota Land Cruiser V8
+78,32,M,Single,56843,Nakuru,Motor,2021,109,3,1,1700,Not Renewed,2,0,Rental,,,8,Low,2,1,430,Basic,4,Accident,Text,7,Query,2,Annually,5,Toyota Harrier
+79,41,F,Widowed,79043,Kisumu,Agricultural,2021,161,2,2,1200,Not Renewed,5,2,Apartment,,Basic,7,High,2,1,266,Premium,9,Floods,Text,9,Complaint,5,Monthly,5,Toyota Harrier
+80,35,F,Divorced,66009,Kitui,Motor,2021,164,3,0,500,Renewed,1,3,Rental,Whole,Basic,5,Medium,2,1,433,Basic,15,Accident,In-Person,2,Complaint,12,Monthly,5,Toyota Land Cruiser V8
+81,42,M,Widowed,34816,Turkana,Motor,2017,117,2,1,2400,Not Renewed,1,1,Bungalow,Term,,8,Medium,0,0,37,Comprehensive,25,Maturity,In-Person,4,Feedback,23,Semi-Annual,2,Mazda CX-5
+82,37,M,Married,35478,Nairobi,Livestock,2021,166,1,0,1200,Not Renewed,2,3,Bungalow,,Premium,5,High,0,1,208,Basic,19,Maturity,Phone Call,5,Complaint,28,Weekly,5,Subaru Forester
+83,29,F,Divorced,57732,Kitui,Agricultural,2017,192,4,0,1600,Renewed,2,1,Apartment,Whole,Premium,2,Medium,1,1,83,Standard,16,Maturity,Email,9,Update,14,Semi-Annual,4,Toyota Land Cruiser V8
+84,23,M,Divorced,74128,Kiambu,Livestock,2017,118,3,0,400,Not Renewed,5,3,Rental,Term,Basic,5,Medium,2,0,422,Standard,23,Maturity,Text,5,Query,24,Annually,5,Toyota Harrier
+85,40,F,Widowed,31186,Eldoret,Livestock,2020,126,0,1,2900,Renewed,1,3,Apartment,Whole,Basic,6,Low,1,1,52,Premium,24,Drought,Email,3,Query,8,Semi-Annual,5,Subaru Forester
+86,41,M,Widowed,49790,Narok,Agricultural,2021,110,4,2,900,Renewed,4,0,Apartment,Whole,Basic,3,Medium,1,0,362,Standard,3,Drought,Email,2,Update,3,Monthly,5,Nissan X-Trail
+87,45,M,Single,58240,Turkana,Health,2018,134,3,1,2700,Renewed,3,1,Bungalow,Term,Premium,2,Medium,2,0,390,Comprehensive,28,Maturity,Phone Call,3,Complaint,13,Monthly,5,Mazda CX-5
+88,33,F,Divorced,78928,Kiambu,Livestock,2015,180,3,1,2600,Renewed,5,1,Bungalow,Whole,,3,Low,1,0,4,Basic,11,Maturity,Text,0,Update,4,Quarterly,0,Mazda CX-5
+89,68,M,Single,69103,Mombasa,Education,2020,128,0,2,1000,Renewed,3,1,Bungalow,Whole,Basic,10,Medium,2,0,392,Premium,3,Death,Text,3,Update,1,Quarterly,5,Toyota Land Cruiser V8
+90,27,F,Single,37647,Turkana,Education,2020,129,1,2,2000,Renewed,1,2,Apartment,Term,Basic,1,Low,1,1,56,Basic,27,Death,Skype,0,Feedback,10,Annually,3,Nissan X-Trail
+91,36,M,Divorced,33937,Nakuru,Motor,2017,122,1,0,1600,Not Renewed,2,2,Rental,Whole,Basic,4,Medium,0,1,108,Basic,18,Accident,Email,0,Update,8,Weekly,5,Nissan X-Trail
+92,34,M,Divorced,79037,Kiambu,Education,2019,163,1,0,600,Not Renewed,3,0,Bungalow,,Basic,9,Medium,0,0,262,Comprehensive,9,Maturity,Email,9,Query,23,Semi-Annual,5,Toyota Land Cruiser V8
+93,27,M,Married,65090,Busia,Motor,2018,175,3,1,2400,Not Renewed,5,3,Bungalow,,,9,High,2,1,312,Standard,2,Floods,In-Person,5,Update,2,Annually,5,Mercedes
+94,55,M,Divorced,66167,Garissa,Health,2018,126,3,2,1000,Not Renewed,1,1,Apartment,,Premium,10,Low,0,1,479,Standard,10,Natural Disaster,Skype,4,Query,26,Quarterly,5,Mercedes
+95,56,M,Divorced,37930,Mombasa,Agricultural,2019,126,2,1,800,Renewed,3,1,Bungalow,,,3,Low,0,0,193,Basic,12,Floods,In-Person,10,Query,27,Semi-Annual,5,Mazda CX-5
+96,43,M,Single,38833,Nakuru,Agricultural,2019,124,1,0,2200,Not Renewed,3,1,Apartment,,Premium,7,High,1,0,404,Premium,23,Drought,In-Person,3,Query,28,Quarterly,5,Mazda CX-5
+97,41,M,Married,64358,Kisumu,Agricultural,2020,114,2,2,1700,Not Renewed,5,3,Apartment,Term,Basic,8,Medium,2,0,220,Standard,17,Drought,In-Person,10,Complaint,8,Semi-Annual,5,Toyota Land Cruiser V8
+98,42,F,Single,36889,Kitui,Education,2019,185,0,1,2100,Renewed,4,3,Apartment,Term,Premium,2,Medium,2,1,46,Premium,8,Death,Phone Call,2,Feedback,2,Weekly,2,Toyota Land Cruiser V8
+99,48,F,Single,35712,Eldoret,Health,2019,148,4,2,1800,Renewed,2,1,Rental,Whole,Basic,7,Low,2,0,164,Standard,11,Maturity,Phone Call,0,Query,24,Annually,5,Toyota Land Cruiser V8
+100,38,F,Divorced,33225,Nakuru,Education,2020,178,4,2,2900,Renewed,1,0,Rental,Whole,Basic,1,Medium,0,0,204,Premium,24,Death,In-Person,5,Query,1,Semi-Annual,5,Nissan X-Trail
+101,68,M,Divorced,51350,Eldoret,Education,2016,121,2,1,1100,Renewed,1,3,Rental,,Basic,8,High,2,1,448,Comprehensive,27,Maturity,Skype,1,Complaint,11,Monthly,5,Toyota Harrier
+102,44,M,Single,52781,Busia,Health,2015,136,0,2,200,Renewed,3,0,Bungalow,Whole,Basic,9,Low,2,0,486,Premium,4,Property Damage,Email,7,Query,9,Monthly,5,Toyota Harrier
+103,62,M,Widowed,59633,Kitui,Health,2020,130,3,0,200,Renewed,4,2,Apartment,,Premium,6,Low,0,1,272,Comprehensive,19,Theft,Skype,9,Update,8,Semi-Annual,5,Nissan X-Trail
+104,26,M,Married,63933,Mombasa,Health,2016,187,3,2,500,Not Renewed,4,3,Apartment,,Basic,8,Medium,2,0,353,Comprehensive,26,Maturity,Text,4,Update,14,Semi-Annual,5,Mazda CX-5
+105,63,M,Married,34305,Kitui,Health,2021,164,1,2,200,Not Renewed,2,1,,Term,Basic,5,Low,1,1,306,Premium,25,Accident,Phone Call,6,Feedback,7,Semi-Annual,5,Mazda CX-5
+106,40,M,Divorced,56281,Kisumu,Agricultural,2016,110,0,0,2500,Renewed,4,3,Rental,Term,Premium,8,High,0,0,273,Comprehensive,14,Drought,Email,9,Query,24,Monthly,5,Mercedes
+107,23,F,Divorced,67561,Nairobi,Property,2018,118,0,2,800,Renewed,3,2,Apartment,Whole,Premium,5,Low,0,0,458,Basic,27,Theft,Email,1,Complaint,4,Monthly,5,Subaru Forester
+108,66,M,Widowed,44041,Mombasa,Property,2016,101,4,0,2600,Not Renewed,2,2,Bungalow,,,5,Low,2,0,464,Comprehensive,8,Theft,Text,7,Update,10,Semi-Annual,5,Toyota Land Cruiser V8
+109,43,F,Divorced,60601,Kisumu,Health,2020,145,2,1,3000,Renewed,2,0,Rental,Term,,2,High,0,1,217,Standard,26,Property Damage,Text,1,Complaint,26,Quarterly,5,Toyota Harrier
+110,59,M,Married,56639,Kisumu,Property,2018,192,0,0,2000,Not Renewed,3,2,Rental,Term,Basic,2,High,0,1,254,Premium,5,Maturity,In-Person,3,Complaint,1,Quarterly,5,Nissan X-Trail
+111,36,F,Widowed,59672,Mombasa,Property,2020,165,1,0,2200,Renewed,2,1,Rental,Term,Premium,1,High,2,1,192,Basic,14,Theft,Phone Call,0,Update,23,Weekly,5,Nissan X-Trail
+112,66,M,Married,76477,Garissa,Health,2016,171,1,0,2700,Not Renewed,2,2,Rental,Whole,Premium,5,High,2,0,298,Premium,21,Accident,Phone Call,4,Complaint,27,Annually,5,Mazda CX-5
+113,27,F,Single,67963,Mombasa,Property,2016,117,3,2,2200,Not Renewed,3,2,,,Basic,4,Low,0,0,215,Standard,2,Theft,Skype,8,Update,14,Quarterly,5,Nissan X-Trail
+114,51,F,Widowed,70148,Turkana,Education,2015,185,4,1,1900,Not Renewed,3,2,Bungalow,Term,Premium,5,Medium,1,1,210,Standard,9,Maturity,In-Person,0,Complaint,5,Monthly,5,Subaru Forester
+115,46,F,Single,61654,Kitui,Motor,2019,102,4,2,200,Renewed,4,0,Bungalow,Term,Basic,8,Medium,1,1,239,Standard,15,Death,In-Person,8,Update,7,Quarterly,5,Toyota Harrier
+116,47,M,Married,45035,Kiambu,Motor,2016,108,0,1,2000,Not Renewed,4,1,Bungalow,,Basic,10,Medium,0,1,340,Comprehensive,17,Death,In-Person,10,Query,26,Weekly,5,Toyota Land Cruiser V8
+117,57,M,Married,58037,Turkana,Health,2018,181,4,2,2500,Not Renewed,5,3,Bungalow,Term,Premium,10,Medium,1,0,369,Comprehensive,15,Accident,In-Person,7,Feedback,4,Weekly,5,Mercedes
+118,62,M,Married,73465,Kisumu,Agricultural,2020,134,0,1,300,Renewed,3,0,Rental,Whole,,4,Low,1,1,55,Premium,13,Drought,Phone Call,5,Update,15,Annually,3,Mercedes
+119,61,F,Married,57476,Kiambu,Health,2015,137,4,1,600,Not Renewed,4,1,Bungalow,Term,Premium,3,Medium,0,1,282,Premium,20,Health Issue,Phone Call,6,Update,25,Quarterly,5,Toyota Harrier
+120,33,M,Widowed,35901,Eldoret,Agricultural,2021,164,3,0,2300,Not Renewed,4,3,Apartment,,Premium,8,Low,2,0,412,Basic,24,Maturity,In-Person,2,Feedback,17,Monthly,5,Mercedes
+121,31,F,Single,70232,Nairobi,Motor,2019,194,1,1,2400,Not Renewed,5,3,Bungalow,,Premium,6,High,2,1,219,Basic,16,Death,Skype,0,Update,5,Monthly,5,Subaru Forester
+122,42,F,Divorced,59514,Garissa,Health,2018,108,4,1,2000,Not Renewed,1,1,Bungalow,Whole,Basic,4,Low,2,0,254,Premium,3,Natural Disaster,Email,4,Update,4,Semi-Annual,5,Mazda CX-5
+123,21,M,Divorced,43888,Kiambu,Livestock,2020,100,3,2,2500,Not Renewed,4,0,Apartment,Whole,,1,Low,0,0,190,Comprehensive,3,Theft,Email,1,Complaint,27,Monthly,5,Mazda CX-5
+124,22,F,Married,60145,Turkana,Education,2018,124,3,0,1400,Renewed,3,3,Rental,,,10,High,1,0,382,Standard,24,Maturity,Skype,4,Feedback,15,Annually,5,Mazda CX-5
+125,26,M,Single,50083,Turkana,Property,2020,100,3,1,600,Renewed,4,0,Rental,,Basic,8,Medium,1,0,495,Premium,23,Theft,In-Person,7,Query,12,Annually,5,Toyota Land Cruiser V8
+126,33,M,Married,74042,Nairobi,Agricultural,2018,103,4,1,500,Renewed,5,0,Apartment,Term,Premium,2,High,1,0,43,Basic,20,Floods,Phone Call,10,Update,27,Monthly,1,Mercedes
+127,65,M,Married,69829,Garissa,Livestock,2021,180,4,2,2400,Renewed,5,1,Bungalow,Term,Premium,3,Medium,1,1,159,Comprehensive,26,Accident,Email,8,Feedback,4,Monthly,5,Subaru Forester
+128,34,F,Divorced,43476,Nairobi,Property,2018,133,2,2,2400,Not Renewed,4,1,Bungalow,,,4,High,0,1,17,Premium,27,Theft,Text,1,Complaint,12,Semi-Annual,1,Nissan X-Trail
+129,31,F,Widowed,42963,Garissa,Property,2018,110,0,2,2900,Not Renewed,5,1,Rental,,Basic,5,Medium,1,0,303,Premium,23,Maturity,Text,2,Query,16,Monthly,5,Toyota Land Cruiser V8
+130,48,F,Single,79173,Nairobi,Health,2020,148,0,0,3000,Not Renewed,2,3,Apartment,Whole,Basic,5,Medium,0,0,67,Comprehensive,27,Maturity,Skype,2,Feedback,17,Semi-Annual,4,Toyota Harrier
+131,53,M,Single,79416,Turkana,Property,2020,117,0,1,1500,Not Renewed,4,0,Apartment,Whole,Basic,5,High,0,1,347,Premium,27,Theft,In-Person,0,Query,7,Semi-Annual,5,Mercedes
+132,46,F,Divorced,61703,Nairobi,Education,2020,144,1,2,1000,Renewed,4,1,Rental,Whole,Basic,9,Medium,2,0,329,Comprehensive,23,Drought,Email,7,Query,12,Monthly,5,Subaru Forester
+133,24,M,Divorced,47791,Kisumu,Livestock,2018,149,1,2,2100,Not Renewed,3,3,Rental,Term,Basic,9,High,1,0,11,Standard,18,Theft,In-Person,5,Query,29,Weekly,0,Nissan X-Trail
+134,48,M,Married,75942,Narok,Property,2015,167,4,0,1200,Renewed,1,2,Apartment,Whole,,2,Medium,1,1,346,Comprehensive,21,Maturity,Email,7,Update,28,Weekly,5,Subaru Forester
+135,31,F,Divorced,49129,Garissa,Health,2020,130,3,0,100,Not Renewed,2,2,,Term,Basic,6,High,1,0,131,Comprehensive,11,Health Issue,Skype,10,Update,18,Semi-Annual,5,Subaru Forester
+136,49,F,Single,75137,Garissa,Education,2019,163,2,2,2800,Not Renewed,4,1,Apartment,,Basic,3,Medium,2,1,494,Comprehensive,7,Maturity,Skype,8,Complaint,25,Monthly,5,Toyota Harrier
+137,29,F,Widowed,68773,Nairobi,Motor,2015,114,4,0,200,Not Renewed,3,2,Apartment,,Premium,4,High,1,1,138,Premium,16,Floods,Text,4,Complaint,2,Weekly,5,Subaru Forester
+138,69,M,Married,37644,Eldoret,Livestock,2019,159,2,0,1000,Renewed,1,1,Bungalow,Term,Basic,7,Medium,0,1,474,Premium,23,Death,In-Person,2,Feedback,23,Monthly,5,Nissan X-Trail
+139,33,F,Widowed,39109,Busia,Property,2016,150,1,1,2400,Renewed,3,1,Apartment,Whole,,10,Low,0,0,65,Comprehensive,12,Floods,Text,4,Complaint,7,Monthly,1,Mazda CX-5
+140,56,M,Widowed,53547,Narok,Health,2017,158,1,0,800,Not Renewed,2,0,,,Premium,10,Medium,1,1,141,Premium,6,Accident,In-Person,4,Query,1,Monthly,5,Nissan X-Trail
+141,22,F,Single,77277,Eldoret,Motor,2017,128,4,0,1600,Renewed,2,0,,,Basic,3,Medium,1,0,501,Basic,2,Death,Text,4,Query,7,Quarterly,5,Toyota Land Cruiser V8
+142,27,M,Divorced,65003,Nairobi,Motor,2016,193,2,2,1400,Renewed,4,2,Rental,Whole,,4,Medium,2,0,83,Basic,9,Death,Phone Call,2,Update,26,Monthly,3,Mazda CX-5
+143,56,F,Single,57473,Mombasa,Agricultural,2020,138,1,1,2900,Not Renewed,3,2,Apartment,Whole,,2,High,2,0,394,Premium,22,Drought,Phone Call,10,Query,12,Quarterly,5,Nissan X-Trail
+144,67,M,Single,58176,Eldoret,Education,2016,186,2,1,1000,Not Renewed,5,3,Apartment,,Basic,2,High,1,0,165,Premium,13,Maturity,Phone Call,9,Feedback,12,Semi-Annual,5,Toyota Harrier
+145,23,M,Divorced,54081,Turkana,Property,2018,144,3,0,700,Not Renewed,4,3,Rental,Whole,Premium,5,Low,1,0,421,Comprehensive,13,Theft,Phone Call,3,Query,0,Weekly,5,Toyota Harrier
+146,68,M,Single,49714,Kisumu,Health,2020,185,4,2,900,Renewed,4,1,Rental,,Basic,8,Medium,2,1,291,Standard,6,Natural Disaster,Email,8,Query,5,Weekly,5,Mazda CX-5
+147,42,M,Married,35812,Mombasa,Agricultural,2019,159,3,1,1600,Not Renewed,2,1,Bungalow,,Basic,2,Medium,2,1,381,Premium,8,Maturity,Phone Call,9,Feedback,23,Weekly,5,Toyota Land Cruiser V8
+148,41,M,Widowed,33654,Kiambu,Education,2020,124,2,0,0,Not Renewed,2,0,Apartment,,Premium,5,Medium,1,1,263,Basic,5,Drought,Skype,8,Complaint,18,Weekly,5,Mercedes
+149,65,F,Divorced,34426,Garissa,Agricultural,2021,109,4,0,200,Renewed,1,1,Rental,Term,Premium,2,Medium,0,0,492,Comprehensive,7,Maturity,Skype,1,Complaint,15,Weekly,5,Mercedes
+150,28,M,Divorced,43116,Kitui,Livestock,2019,144,1,1,400,Not Renewed,3,3,Rental,Term,Basic,3,Low,1,0,233,Premium,14,Theft,Email,7,Feedback,7,Weekly,5,Toyota Harrier
+151,22,M,Married,60044,Turkana,Education,2016,171,0,1,1200,Not Renewed,1,1,,Whole,Premium,9,Medium,2,0,43,Basic,21,Death,Phone Call,7,Update,27,Weekly,3,Mercedes
+152,28,F,Single,68953,Kiambu,Education,2019,132,2,2,1100,Not Renewed,1,0,Rental,,Basic,3,High,1,0,30,Basic,16,Drought,Phone Call,6,Query,0,Semi-Annual,2,Nissan X-Trail
+153,47,F,Divorced,53350,Garissa,Property,2015,123,0,1,2000,Renewed,3,2,Rental,Term,Premium,8,High,2,1,137,Standard,4,Maturity,Phone Call,7,Feedback,26,Monthly,5,Mercedes
+154,45,M,Married,64959,Busia,Education,2021,186,2,0,2800,Not Renewed,1,1,Apartment,Whole,Premium,7,Medium,1,0,203,Comprehensive,24,Maturity,Text,2,Query,26,Annually,5,Mercedes
+155,48,M,Divorced,32069,Narok,Agricultural,2015,111,2,1,2700,Not Renewed,4,2,,,Basic,8,Low,2,0,330,Comprehensive,9,Floods,In-Person,5,Update,15,Quarterly,5,Mazda CX-5
+156,19,M,Widowed,50111,Kisumu,Education,2016,161,3,0,1800,Renewed,2,0,Rental,Whole,Premium,6,Medium,2,0,270,Standard,21,Maturity,Text,0,Query,8,Annually,5,Nissan X-Trail
+157,58,F,Divorced,65430,Mombasa,Property,2021,132,2,1,2200,Renewed,4,3,Bungalow,Term,Basic,5,High,2,0,420,Standard,17,Maturity,In-Person,6,Feedback,12,Annually,5,Toyota Harrier
+158,69,M,Single,79445,Nairobi,Property,2016,189,2,2,2000,Not Renewed,1,2,Bungalow,,,4,High,1,0,35,Comprehensive,14,Theft,Phone Call,0,Query,10,Monthly,2,Toyota Harrier
+159,44,M,Divorced,30261,Kitui,Livestock,2019,159,4,1,2200,Not Renewed,5,0,Rental,,,9,Low,2,0,50,Comprehensive,19,Accident,Phone Call,8,Complaint,12,Monthly,3,Mazda CX-5
+160,69,M,Widowed,40334,Nakuru,Agricultural,2016,175,2,0,400,Renewed,5,3,Bungalow,Term,,5,Medium,2,1,409,Premium,11,Floods,Text,0,Update,24,Monthly,5,Mercedes
+161,21,M,Divorced,70473,Busia,Motor,2017,145,1,0,3000,Not Renewed,4,3,Apartment,Whole,Premium,2,Medium,1,1,64,Premium,20,Maturity,Text,0,Update,20,Weekly,3,Toyota Land Cruiser V8
+162,64,M,Married,48503,Busia,Motor,2016,178,4,1,1000,Renewed,1,2,Bungalow,Term,Basic,4,Low,2,1,218,Standard,18,Floods,In-Person,6,Update,9,Semi-Annual,5,Mercedes
+163,66,M,Married,68299,Turkana,Education,2021,128,1,1,1700,Not Renewed,1,1,Bungalow,,Basic,6,Medium,1,1,295,Premium,25,Maturity,Skype,1,Feedback,3,Weekly,5,Mazda CX-5
+164,64,M,Married,74369,Kisumu,Livestock,2017,158,0,0,500,Renewed,5,1,Apartment,Term,Basic,4,High,0,1,101,Basic,20,Theft,In-Person,4,Update,30,Semi-Annual,5,Subaru Forester
+165,68,M,Married,73532,Garissa,Health,2018,151,4,2,2500,Not Renewed,2,2,Rental,,Basic,7,High,1,1,174,Premium,27,Maturity,Text,7,Complaint,26,Semi-Annual,5,Mazda CX-5
+166,40,M,Married,52042,Busia,Education,2017,116,1,2,2700,Not Renewed,4,2,Bungalow,Whole,Premium,4,Medium,0,0,362,Premium,24,Death,Text,7,Feedback,5,Annually,5,Nissan X-Trail
+167,64,M,Widowed,31197,Nairobi,Livestock,2020,176,4,2,1900,Renewed,5,3,Apartment,,Premium,9,Medium,2,0,216,Basic,27,Drought,Email,2,Complaint,27,Annually,5,Nissan X-Trail
+168,44,F,Married,58484,Kiambu,Agricultural,2015,152,4,1,1800,Renewed,5,0,Rental,,Basic,10,High,2,1,477,Standard,6,Floods,Text,6,Query,6,Semi-Annual,5,Toyota Harrier
+169,64,F,Married,69015,Garissa,Agricultural,2016,167,0,1,100,Not Renewed,3,2,Rental,Term,Premium,7,Medium,0,1,37,Basic,27,Drought,Email,2,Query,4,Semi-Annual,0,Toyota Land Cruiser V8
+170,19,F,Married,66662,Turkana,Agricultural,2015,180,1,0,900,Not Renewed,3,1,Apartment,Term,Basic,10,High,0,1,451,Premium,22,Maturity,Skype,5,Query,10,Weekly,5,Mazda CX-5
+171,61,M,Widowed,62557,Garissa,Agricultural,2020,190,4,2,1200,Renewed,3,0,Bungalow,Term,Premium,2,Low,0,1,229,Standard,24,Maturity,In-Person,5,Query,12,Weekly,5,Subaru Forester
+172,55,M,Divorced,40727,Nakuru,Agricultural,2017,155,1,1,1200,Renewed,2,1,Rental,,Premium,3,Medium,1,0,103,Premium,10,Drought,In-Person,2,Complaint,25,Annually,4,Toyota Land Cruiser V8
+173,50,M,Divorced,51224,Nakuru,Livestock,2017,193,4,2,700,Renewed,1,2,Apartment,Whole,Basic,10,Medium,1,0,433,Basic,13,Death,Email,6,Feedback,24,Monthly,5,Nissan X-Trail
+174,69,M,Widowed,54813,Kiambu,Livestock,2018,190,2,1,1400,Renewed,5,2,Rental,,Basic,5,Low,0,0,464,Basic,22,Floods,In-Person,2,Feedback,18,Semi-Annual,5,Nissan X-Trail
+175,20,M,Single,39507,Busia,Property,2015,190,1,2,1900,Not Renewed,2,3,Bungalow,,Premium,4,High,1,0,133,Premium,2,Theft,Text,7,Update,30,Weekly,5,Nissan X-Trail
+176,54,M,Divorced,58151,Kisumu,Motor,2021,131,3,0,2100,Renewed,5,1,Rental,,,2,Medium,0,0,259,Comprehensive,27,Death,Phone Call,9,Complaint,22,Annually,5,Toyota Harrier
+177,57,M,Married,70916,Kiambu,Agricultural,2018,144,2,0,1400,Not Renewed,1,1,Bungalow,,Basic,9,Low,0,0,7,Comprehensive,27,Maturity,Email,3,Query,9,Weekly,0,Mazda CX-5
+178,19,M,Single,69994,Eldoret,Health,2017,195,0,0,900,Not Renewed,3,2,Apartment,Whole,Basic,5,Medium,2,0,220,Basic,2,Theft,In-Person,0,Complaint,9,Semi-Annual,5,Toyota Harrier
+179,63,F,Married,54536,Nakuru,Livestock,2018,112,1,1,300,Renewed,5,1,,,,1,High,2,0,257,Basic,16,Maturity,Email,3,Update,10,Semi-Annual,5,Mercedes
+180,61,F,Widowed,66204,Kisumu,Health,2019,166,3,2,1600,Not Renewed,3,0,Rental,Whole,,6,Low,2,1,400,Comprehensive,3,Maturity,Email,6,Update,20,Quarterly,5,Toyota Land Cruiser V8
+181,56,F,Married,51488,Narok,Health,2021,103,3,1,200,Not Renewed,1,0,Apartment,,Premium,2,High,0,1,361,Comprehensive,23,Maturity,Phone Call,10,Complaint,29,Monthly,5,Mazda CX-5
+182,31,F,Married,48612,Kiambu,Health,2021,197,2,1,0,Renewed,4,3,Rental,,Premium,3,Low,0,1,285,Premium,17,Maturity,Text,3,Complaint,6,Quarterly,5,Toyota Land Cruiser V8
+183,48,F,Married,40544,Nairobi,Property,2015,178,0,2,1100,Not Renewed,1,2,,,Basic,9,Low,2,1,395,Premium,26,Floods,Email,5,Complaint,30,Annually,5,Toyota Harrier
+184,60,F,Married,46723,Eldoret,Livestock,2016,116,2,2,800,Not Renewed,1,0,Bungalow,,Premium,2,Medium,2,1,209,Comprehensive,9,Accident,In-Person,8,Feedback,17,Weekly,5,Nissan X-Trail
+185,32,F,Divorced,58203,Garissa,Health,2018,125,4,0,2900,Renewed,3,3,Rental,,Premium,9,High,2,0,17,Premium,14,Theft,Skype,0,Query,3,Annually,0,Nissan X-Trail
+186,37,F,Single,70303,Narok,Agricultural,2019,109,2,1,900,Not Renewed,1,0,Bungalow,Term,Basic,3,Low,2,0,348,Premium,22,Drought,Email,4,Complaint,1,Semi-Annual,5,Nissan X-Trail
+187,50,M,Divorced,71827,Narok,Education,2021,172,1,2,2800,Not Renewed,4,3,Bungalow,,Premium,7,Low,2,1,44,Standard,2,Drought,Email,10,Complaint,13,Quarterly,1,Nissan X-Trail
+188,53,M,Divorced,58529,Busia,Health,2019,154,4,2,3000,Not Renewed,3,0,Apartment,Whole,,4,Low,2,1,382,Premium,17,Accident,Phone Call,6,Complaint,12,Quarterly,5,Subaru Forester
+189,54,F,Widowed,35047,Nairobi,Property,2019,123,2,1,600,Renewed,5,0,Apartment,Term,Premium,10,Medium,1,1,463,Basic,8,Theft,Text,0,Update,28,Quarterly,5,Toyota Land Cruiser V8
+190,18,F,Married,63244,Kiambu,Livestock,2021,162,0,2,2500,Not Renewed,3,2,Rental,Whole,Basic,6,High,1,1,181,Premium,6,Floods,Skype,3,Update,11,Annually,5,Subaru Forester
+191,47,F,Married,46133,Nakuru,Property,2020,186,2,1,1300,Not Renewed,4,2,Rental,Term,Premium,8,Medium,1,0,65,Premium,23,Floods,In-Person,5,Feedback,6,Semi-Annual,1,Nissan X-Trail
+192,24,F,Single,67271,Kitui,Health,2016,134,4,1,2200,Not Renewed,5,1,Bungalow,,,8,Low,0,0,354,Comprehensive,24,Property Damage,Skype,1,Query,1,Weekly,5,Toyota Land Cruiser V8
+193,58,M,Widowed,74040,Kisumu,Livestock,2015,100,2,0,3000,Not Renewed,1,2,,,,9,Medium,2,0,233,Basic,4,Drought,In-Person,9,Feedback,12,Weekly,5,Toyota Harrier
+194,48,M,Married,43980,Narok,Education,2015,109,4,2,1200,Not Renewed,1,3,Bungalow,Term,,9,High,1,0,243,Premium,13,Drought,Text,4,Query,13,Annually,5,Mazda CX-5
+195,24,M,Married,60967,Nakuru,Health,2015,124,0,1,0,Renewed,4,1,Apartment,,Premium,4,Medium,0,1,54,Premium,27,Natural Disaster,In-Person,10,Update,26,Quarterly,1,Subaru Forester
+196,34,F,Divorced,75010,Kisumu,Property,2019,162,4,0,2000,Renewed,4,1,Apartment,,,1,High,1,0,98,Standard,17,Floods,Phone Call,9,Update,16,Monthly,5,Subaru Forester
+197,63,M,Divorced,51575,Busia,Motor,2018,104,4,1,2500,Not Renewed,2,3,Bungalow,Term,Premium,1,Low,2,1,390,Premium,20,Death,Phone Call,0,Update,8,Annually,5,Mazda CX-5
+198,27,F,Widowed,67379,Kisumu,Agricultural,2021,138,4,0,800,Not Renewed,2,2,Bungalow,Whole,,4,Low,0,0,224,Premium,6,Floods,Phone Call,5,Feedback,16,Annually,5,Toyota Harrier
+199,43,F,Married,52432,Nairobi,Property,2020,158,4,2,0,Renewed,4,1,Bungalow,Term,Premium,7,Medium,0,1,487,Standard,23,Maturity,Phone Call,5,Complaint,7,Semi-Annual,5,Mazda CX-5
+200,38,F,Single,72258,Turkana,Livestock,2019,186,4,1,600,Renewed,3,0,Bungalow,Whole,Basic,9,Medium,2,0,409,Comprehensive,26,Drought,Skype,3,Complaint,30,Weekly,5,Subaru Forester
+173,50,M,Single,51224,Kisumu,Property,2017,193,4,2,700,Renewed,1,2,Apartment,Term,,10,High,1,0,433,Premium,13,Death,Text,6,Query,24,Monthly,5,Toyota Harrier
+48,52,F,Married,69703,Turkana,Livestock,2019,189,2,2,2000,Not Renewed,4,1,Rental,Whole,Premium,4,High,2,1,448,Premium,6,Maturity,Skype,4,Feedback,1,Annually,5,Toyota Harrier
+118,62,M,Single,73465,Nakuru,Livestock,2020,134,0,1,300,Not Renewed,3,0,Apartment,,,4,Medium,1,1,55,Basic,13,Accident,Text,5,Feedback,15,Annually,3,Mazda CX-5
+193,58,M,Single,74040,Kiambu,Motor,2015,100,2,0,3000,Renewed,1,2,Apartment,,Basic,9,Medium,2,0,233,Premium,4,Drought,Email,9,Query,12,Annually,5,Toyota Land Cruiser V8
+68,58,F,Married,34642,Nakuru,Motor,2020,108,3,0,2200,Not Renewed,4,0,Rental,Term,Premium,10,Low,2,1,244,Basic,21,Maturity,Skype,3,Update,28,Annually,5,Mercedes
+196,34,M,Married,75010,Nakuru,Livestock,2019,162,4,0,2000,Not Renewed,4,1,,,,1,High,1,0,98,Basic,17,Theft,Skype,9,Feedback,16,Weekly,5,Subaru Forester
+104,26,M,Married,63933,Narok,Agricultural,2016,187,3,2,500,Renewed,4,3,Bungalow,,Basic,8,High,2,0,353,Standard,26,Maturity,Text,4,Update,14,Annually,5,Mazda CX-5
+10,19,F,Divorced,45552,Kisumu,Agricultural,2017,182,4,2,200,Renewed,4,1,Rental,,Premium,2,High,2,1,124,Premium,4,Maturity,Text,6,Query,16,Annually,5,Mercedes
+22,61,M,Divorced,65606,Kitui,Health,2019,181,1,1,1500,Renewed,1,1,Apartment,Whole,,8,High,0,0,311,Basic,9,Accident,Phone Call,2,Update,5,Quarterly,5,Mercedes
+37,65,M,Single,72252,Nairobi,Property,2020,190,3,2,2900,Renewed,4,2,Apartment,Whole,Premium,6,Low,2,0,238,Basic,14,Floods,In-Person,9,Query,7,Quarterly,5,Nissan X-Trail
+88,33,F,Married,78928,Turkana,Livestock,2015,180,3,1,2600,Not Renewed,5,1,Apartment,,Premium,3,Low,1,0,4,Premium,11,Floods,Email,0,Query,4,Annually,0,Subaru Forester
+71,31,M,Widowed,76750,Kiambu,Motor,2016,111,3,2,200,Not Renewed,1,1,Bungalow,,Premium,1,Medium,2,0,55,Comprehensive,2,Drought,In-Person,0,Feedback,2,Monthly,2,Toyota Land Cruiser V8
+89,68,M,Divorced,69103,Turkana,Livestock,2020,128,0,2,1000,Not Renewed,3,1,Apartment,Whole,Basic,10,High,2,0,392,Comprehensive,3,Floods,Text,3,Query,1,Weekly,5,Mazda CX-5
+141,22,F,Married,77277,Kisumu,Education,2017,128,4,0,1600,Renewed,2,0,Rental,,,3,Medium,1,0,501,Standard,2,Drought,Email,4,Feedback,7,Semi-Annual,5,Subaru Forester
+59,41,M,Married,45951,Mombasa,Livestock,2021,196,2,1,1500,Renewed,4,0,Apartment,,Basic,1,High,0,0,137,Premium,4,Maturity,Phone Call,2,Query,21,Monthly,5,Toyota Land Cruiser V8
+194,48,M,Married,43980,Nakuru,Health,2015,109,4,2,1200,Not Renewed,1,3,Rental,,Basic,9,Medium,1,0,243,Premium,13,Maturity,Text,4,Feedback,13,Semi-Annual,5,Toyota Harrier
+40,50,F,Single,64568,Mombasa,Education,2015,141,4,0,500,Not Renewed,2,3,,Whole,Basic,5,Medium,1,0,477,Comprehensive,9,Floods,Text,7,Update,30,Quarterly,5,Toyota Land Cruiser V8
+88,33,F,Married,78928,Mombasa,Agricultural,2015,180,3,1,2600,Renewed,5,1,Rental,,Premium,3,High,1,0,4,Premium,11,Maturity,Phone Call,0,Update,4,Semi-Annual,0,Subaru Forester
+175,20,M,Divorced,39507,Turkana,Livestock,2015,190,1,2,1900,Not Renewed,2,3,Rental,Term,Basic,4,High,1,0,133,Standard,2,Drought,In-Person,7,Feedback,30,Monthly,5,Toyota Land Cruiser V8
+89,68,F,Widowed,69103,Narok,Agricultural,2020,128,0,2,1000,Not Renewed,3,1,,,,10,Medium,2,0,392,Basic,3,Drought,Text,3,Update,1,Weekly,5,Mazda CX-5
+82,37,M,Single,35478,Turkana,Agricultural,2021,166,1,0,1200,Renewed,2,3,Bungalow,,,5,Medium,0,1,208,Premium,19,Accident,In-Person,5,Query,28,Semi-Annual,5,Subaru Forester
+166,40,M,Divorced,52042,Busia,Health,2017,116,1,2,2700,Renewed,4,2,Rental,,Basic,4,Medium,0,0,362,Basic,24,Maturity,Text,7,Query,5,Monthly,5,Toyota Harrier
+26,62,F,Widowed,65687,Narok,Property,2015,172,0,0,2800,Not Renewed,1,1,Bungalow,Term,Premium,3,Medium,0,0,416,Premium,2,Theft,Text,5,Update,13,Semi-Annual,5,Toyota Harrier
+78,32,M,Widowed,56843,Nakuru,Livestock,2021,109,3,1,1700,Renewed,2,0,Apartment,Term,Basic,8,High,2,1,430,Standard,4,Maturity,Phone Call,7,Complaint,2,Semi-Annual,5,Nissan X-Trail
+73,42,M,Single,54849,Eldoret,Education,2021,115,0,2,1900,Renewed,5,2,Bungalow,Whole,,1,High,1,0,342,Comprehensive,19,Maturity,Skype,5,Complaint,17,Weekly,5,Toyota Land Cruiser V8
+10,19,F,Married,45552,Kitui,Health,2017,182,4,2,200,Not Renewed,4,1,Bungalow,Whole,Basic,2,High,2,1,124,Basic,4,Maturity,Email,6,Feedback,16,Annually,5,Nissan X-Trail
+149,65,M,Married,34426,Turkana,Property,2021,109,4,0,200,Renewed,1,1,Apartment,Whole,Basic,2,Low,0,0,492,Comprehensive,7,Drought,In-Person,1,Complaint,15,Semi-Annual,5,Mazda CX-5
+116,47,M,Married,45035,Eldoret,Health,2016,108,0,1,2000,Not Renewed,4,1,Bungalow,Whole,,10,High,0,1,340,Comprehensive,17,Theft,Phone Call,10,Feedback,26,Monthly,5,Subaru Forester
+198,27,F,Single,67379,Turkana,Health,2021,138,4,0,800,Renewed,2,2,Bungalow,,Premium,4,Medium,0,0,224,Basic,6,Maturity,Text,5,Update,16,Annually,5,Nissan X-Trail
+80,35,M,Married,66009,Nairobi,Livestock,2021,164,3,0,500,Renewed,1,3,Rental,Term,Basic,5,Medium,2,1,433,Basic,15,Floods,In-Person,2,Update,12,Annually,5,Toyota Land Cruiser V8
+176,54,M,Single,58151,Eldoret,Livestock,2021,131,3,0,2100,Renewed,5,1,Apartment,,Premium,2,High,0,0,259,Basic,27,Maturity,In-Person,9,Complaint,22,Monthly,5,Mazda CX-5
+193,58,M,Divorced,74040,Turkana,Agricultural,2015,100,2,0,3000,Renewed,1,2,Rental,Whole,Basic,9,Low,2,0,233,Basic,4,Maturity,Phone Call,9,Complaint,12,Semi-Annual,5,Mercedes
+83,29,M,Married,57732,Garissa,Motor,2017,192,4,0,1600,Not Renewed,2,1,,Whole,Premium,2,Medium,1,1,83,Premium,16,Drought,Text,9,Update,14,Semi-Annual,4,Nissan X-Trail
+100,38,M,Divorced,33225,Eldoret,Education,2020,178,4,2,2900,Not Renewed,1,0,Bungalow,,Premium,1,High,0,0,204,Premium,24,Accident,Email,5,Query,1,Weekly,5,Mercedes
+178,19,M,Widowed,69994,Garissa,Agricultural,2017,195,0,0,900,Renewed,3,2,Bungalow,,,5,High,2,0,220,Premium,2,Floods,In-Person,0,Update,9,Annually,5,Subaru Forester
+30,18,M,Divorced,74506,Kisumu,Property,2019,165,2,2,600,Renewed,5,2,Bungalow,,Basic,1,Medium,0,1,446,Comprehensive,20,Maturity,Email,0,Feedback,12,Monthly,5,Mazda CX-5
+148,41,M,Married,33654,Nairobi,Agricultural,2020,124,2,0,0,Not Renewed,2,0,Apartment,,Premium,5,Medium,1,1,263,Standard,5,Accident,In-Person,8,Complaint,18,Monthly,5,Toyota Land Cruiser V8
+148,41,M,Divorced,33654,Nakuru,Education,2020,124,2,0,0,Renewed,2,0,Bungalow,Term,Premium,5,Medium,1,1,263,Standard,5,Maturity,Text,8,Feedback,18,Quarterly,5,Toyota Harrier
+143,56,F,Married,57473,Nairobi,Livestock,2020,138,1,1,2900,Not Renewed,3,2,Apartment,Whole,Premium,2,High,2,0,394,Comprehensive,22,Floods,Email,10,Complaint,12,Quarterly,5,Toyota Land Cruiser V8
+168,44,F,Married,58484,Kisumu,Education,2015,152,4,1,1800,Renewed,5,0,Rental,,Basic,10,Medium,2,1,477,Premium,6,Drought,In-Person,6,Query,6,Annually,5,Toyota Land Cruiser V8
+33,54,F,Divorced,66485,Turkana,Education,2019,135,0,1,2500,Renewed,2,3,Apartment,,Basic,5,Low,1,0,462,Premium,23,Maturity,Text,8,Complaint,6,Semi-Annual,5,Toyota Harrier
+194,48,F,Married,43980,Nairobi,Agricultural,2015,109,4,2,1200,Not Renewed,1,3,Bungalow,,Basic,9,Low,1,0,243,Comprehensive,13,Maturity,In-Person,4,Complaint,13,Annually,5,Mercedes
+10,19,F,Single,45552,Busia,Livestock,2017,182,4,2,200,Not Renewed,4,1,Apartment,,Basic,2,High,2,1,124,Comprehensive,4,Maturity,Email,6,Update,16,Monthly,5,Mazda CX-5
+186,37,F,Divorced,70303,Turkana,Motor,2019,109,2,1,900,Renewed,1,0,Bungalow,,Basic,3,Low,2,0,348,Basic,22,Drought,Skype,4,Complaint,1,Weekly,5,Toyota Harrier
+128,34,M,Widowed,43476,Kiambu,Agricultural,2018,133,2,2,2400,Renewed,4,1,Bungalow,,Basic,4,Medium,0,1,17,Standard,27,Property Damage,In-Person,1,Update,12,Weekly,1,Toyota Land Cruiser V8
+33,54,F,Widowed,66485,Nakuru,Property,2019,135,0,1,2500,Renewed,2,3,Rental,Term,Premium,5,High,1,0,462,Comprehensive,23,Death,Skype,8,Update,6,Semi-Annual,5,Nissan X-Trail
+32,42,M,Married,34158,Kiambu,Education,2020,190,2,1,1100,Renewed,2,2,Apartment,,Basic,6,Low,1,0,163,Comprehensive,24,Drought,Text,9,Query,24,Semi-Annual,5,Toyota Land Cruiser V8
+152,28,M,Single,68953,Nakuru,Livestock,2019,132,2,2,1100,Renewed,1,0,Bungalow,,Premium,3,High,1,0,30,Premium,16,Death,In-Person,6,Complaint,0,Monthly,2,Toyota Harrier
+164,64,M,Divorced,74369,Eldoret,Education,2017,158,0,0,500,Renewed,5,1,Rental,,Premium,4,Medium,0,1,101,Premium,20,Maturity,Skype,4,Feedback,30,Semi-Annual,5,Nissan X-Trail
+115,46,M,Divorced,61654,Eldoret,Education,2019,102,4,2,200,Not Renewed,4,0,Apartment,Whole,Premium,8,Medium,1,1,239,Premium,15,Floods,Phone Call,8,Update,7,Quarterly,5,Mazda CX-5
+184,60,M,Widowed,46723,Kisumu,Agricultural,2016,116,2,2,800,Renewed,1,0,,Term,Basic,2,High,2,1,209,Premium,9,Maturity,Email,8,Complaint,17,Weekly,5,Toyota Harrier
+29,26,F,Single,59732,Mombasa,Agricultural,2021,194,1,1,0,Not Renewed,3,3,Rental,Whole,,6,Medium,0,1,194,Premium,28,Theft,Phone Call,7,Complaint,29,Semi-Annual,5,Mazda CX-5
+35,50,M,Married,35256,Busia,Education,2018,136,4,0,1400,Not Renewed,3,0,Rental,Term,Basic,6,Low,1,0,24,Premium,7,Maturity,In-Person,5,Query,3,Semi-Annual,1,Toyota Harrier
+129,31,F,Married,42963,Narok,Property,2018,110,0,2,2900,Renewed,5,1,Rental,Term,Premium,5,Low,1,0,303,Basic,23,Maturity,Phone Call,2,Feedback,16,Annually,5,Mercedes
+129,31,M,Divorced,42963,Nakuru,Property,2018,110,0,2,2900,Not Renewed,5,1,Rental,Whole,Basic,5,Low,1,0,303,Standard,23,Accident,Text,2,Query,16,Annually,5,Mercedes
+165,68,F,Divorced,73532,Kitui,Livestock,2018,151,4,2,2500,Renewed,2,2,Apartment,Whole,Premium,7,Low,1,1,174,Basic,27,Floods,In-Person,7,Query,26,Semi-Annual,5,Toyota Land Cruiser V8
+54,59,F,Widowed,55320,Narok,Health,2020,172,4,0,2200,Renewed,2,3,Rental,,Basic,3,Medium,1,1,246,Premium,18,Theft,Skype,7,Update,2,Semi-Annual,5,Subaru Forester
+134,48,F,Divorced,75942,Kitui,Agricultural,2015,167,4,0,1200,Renewed,1,2,Bungalow,,Basic,2,High,1,1,346,Basic,21,Maturity,Skype,7,Complaint,28,Weekly,5,Mazda CX-5
+39,23,F,Single,75556,Garissa,Health,2018,129,1,0,1500,Renewed,3,2,Bungalow,Whole,Basic,10,High,1,1,51,Basic,23,Maturity,In-Person,10,Query,28,Monthly,2,Mercedes
+18,41,M,Divorced,60794,Nairobi,Motor,2021,175,2,2,2100,Renewed,3,3,Bungalow,Term,Premium,4,Medium,1,1,362,Premium,22,Maturity,Phone Call,3,Update,28,Semi-Annual,5,Subaru Forester
+80,35,F,Divorced,66009,Kitui,Agricultural,2021,164,3,0,500,Not Renewed,1,3,Rental,,Basic,5,Medium,2,1,433,Standard,15,Maturity,Text,2,Complaint,12,Annually,5,Mercedes
+133,24,M,Married,47791,Nairobi,Health,2018,149,1,2,2100,Renewed,3,3,Bungalow,Whole,Basic,9,Medium,1,0,11,Basic,18,Accident,In-Person,5,Feedback,29,Weekly,0,Toyota Harrier
+106,40,F,Widowed,56281,Kisumu,Agricultural,2016,110,0,0,2500,Renewed,4,3,Apartment,Whole,Premium,8,Low,0,0,273,Basic,14,Drought,In-Person,9,Query,24,Weekly,5,Nissan X-Trail
+43,27,M,Widowed,79697,Kisumu,Motor,2019,100,3,1,2200,Renewed,1,0,Rental,,,5,Medium,2,0,478,Basic,3,Death,Phone Call,4,Complaint,18,Semi-Annual,5,Subaru Forester
+187,50,M,Divorced,71827,Nairobi,Agricultural,2021,172,1,2,2800,Renewed,4,3,Bungalow,Term,Basic,7,Low,2,1,44,Basic,2,Theft,Skype,10,Complaint,13,Semi-Annual,1,Nissan X-Trail
+32,42,M,Widowed,34158,Turkana,Health,2020,190,2,1,1100,Not Renewed,2,2,Rental,,Premium,6,Medium,1,0,163,Comprehensive,24,Maturity,Text,9,Query,24,Weekly,5,Nissan X-Trail
+121,31,M,Widowed,70232,Turkana,Agricultural,2019,194,1,1,2400,Not Renewed,5,3,Bungalow,Whole,Premium,6,High,2,1,219,Basic,16,Theft,In-Person,0,Update,5,Semi-Annual,5,Subaru Forester
+2,58,F,Divorced,40237,Garissa,Health,2016,188,2,2,1500,Renewed,4,0,Bungalow,Whole,,1,Medium,1,1,438,Premium,26,Theft,Phone Call,9,Complaint,24,Annually,5,Toyota Land Cruiser V8
+66,52,F,Married,71466,Eldoret,Property,2021,137,4,0,2400,Renewed,2,2,Rental,Term,Premium,3,Medium,1,0,318,Standard,4,Accident,Email,3,Update,25,Semi-Annual,5,Nissan X-Trail
+170,19,M,Single,66662,Busia,Property,2015,180,1,0,900,Not Renewed,3,1,Rental,,,10,High,0,1,451,Premium,22,Accident,In-Person,5,Feedback,10,Annually,5,Toyota Harrier
+58,65,M,Widowed,46895,Busia,Motor,2020,162,2,2,2700,Not Renewed,3,1,Rental,,Basic,4,High,2,0,309,Comprehensive,7,Death,Text,2,Query,4,Semi-Annual,5,Subaru Forester
+36,48,M,Single,35648,Busia,Livestock,2017,136,2,2,1500,Not Renewed,2,1,Rental,Whole,,3,Low,1,0,255,Premium,7,Drought,Text,3,Feedback,26,Quarterly,5,Toyota Harrier
+103,62,M,Single,59633,Mombasa,Health,2020,130,3,0,200,Renewed,4,2,Rental,Whole,Basic,6,Medium,0,1,272,Basic,19,Maturity,Text,9,Complaint,8,Weekly,5,Nissan X-Trail
+120,33,M,Widowed,35901,Kiambu,Education,2021,164,3,0,2300,Renewed,4,3,Bungalow,Whole,,8,High,2,0,412,Standard,24,Death,In-Person,2,Query,17,Semi-Annual,5,Mazda CX-5
+12,20,F,Married,62210,Nairobi,Motor,2017,173,0,1,1300,Renewed,1,0,Bungalow,Term,Basic,10,Low,2,1,217,Premium,10,Maturity,Phone Call,0,Feedback,23,Semi-Annual,5,Toyota Harrier
+175,20,F,Divorced,39507,Kitui,Education,2015,190,1,2,1900,Not Renewed,2,3,Apartment,,Basic,4,Low,1,0,133,Premium,2,Death,In-Person,7,Update,30,Semi-Annual,5,Subaru Forester
+83,29,M,Divorced,57732,Nakuru,Property,2017,192,4,0,1600,Renewed,2,1,Bungalow,Whole,Basic,2,Low,1,1,83,Premium,16,Death,Phone Call,9,Query,14,Annually,4,Subaru Forester
+92,34,M,Divorced,79037,Eldoret,Livestock,2019,163,1,0,600,Not Renewed,3,0,,,Basic,9,Medium,0,0,262,Comprehensive,9,Theft,Email,9,Query,23,Weekly,5,Toyota Land Cruiser V8
+129,31,M,Married,42963,Kitui,Agricultural,2018,110,0,2,2900,Not Renewed,5,1,Bungalow,,Premium,5,High,1,0,303,Premium,23,Accident,Skype,2,Feedback,16,Annually,5,Nissan X-Trail
+143,56,F,Widowed,57473,Kiambu,Livestock,2020,138,1,1,2900,Renewed,3,2,Apartment,Term,,2,High,2,0,394,Comprehensive,22,Maturity,Phone Call,10,Complaint,12,Monthly,5,Mercedes
+100,38,M,Single,33225,Nakuru,Education,2020,178,4,2,2900,Renewed,1,0,Rental,,Basic,1,Low,0,0,204,Basic,24,Theft,Text,5,Update,1,Weekly,5,Nissan X-Trail
+54,59,F,Widowed,55320,Nakuru,Health,2020,172,4,0,2200,Not Renewed,2,3,Bungalow,Whole,Basic,3,High,1,1,246,Basic,18,Accident,Text,7,Complaint,2,Monthly,5,Mercedes
+141,22,M,Widowed,77277,Turkana,Livestock,2017,128,4,0,1600,Not Renewed,2,0,Bungalow,,Basic,3,High,1,0,501,Basic,2,Accident,Skype,4,Update,7,Semi-Annual,5,Toyota Harrier
+122,42,F,Divorced,59514,Kitui,Livestock,2018,108,4,1,2000,Not Renewed,1,1,Rental,Term,Premium,4,Low,2,0,254,Comprehensive,3,Death,Email,4,Complaint,4,Annually,5,Toyota Harrier
+171,61,F,Married,62557,Nairobi,Education,2020,190,4,2,1200,Renewed,3,0,Rental,,Basic,2,Medium,0,1,229,Comprehensive,24,Theft,In-Person,5,Query,12,Monthly,5,Toyota Harrier
+85,40,M,Divorced,31186,Busia,Motor,2020,126,0,1,2900,Renewed,1,3,Rental,Term,Premium,6,Low,1,1,52,Comprehensive,24,Death,Text,3,Feedback,8,Weekly,5,Toyota Harrier
+69,44,F,Single,37743,Mombasa,Property,2017,152,2,2,500,Renewed,2,1,Rental,Term,Premium,1,Medium,2,1,267,Basic,22,Natural Disaster,In-Person,5,Query,26,Annually,5,Mercedes
+7,44,F,Widowed,79708,Kitui,Agricultural,2019,114,3,2,700,Not Renewed,1,3,Rental,Whole,Premium,5,Medium,0,1,191,Premium,19,Theft,Email,6,Feedback,14,Annually,5,Toyota Harrier
+197,63,M,Married,51575,Narok,Health,2018,104,4,1,2500,Renewed,2,3,Apartment,Term,Basic,1,Medium,2,1,390,Premium,20,Maturity,Text,0,Feedback,8,Semi-Annual,5,Mercedes
+48,52,M,Married,69703,Narok,Education,2019,189,2,2,2000,Renewed,4,1,Apartment,,,4,High,2,1,448,Premium,6,Accident,In-Person,4,Feedback,1,Semi-Annual,5,Nissan X-Trail
+128,34,M,Single,43476,Kisumu,Health,2018,133,2,2,2400,Not Renewed,4,1,Apartment,Whole,Premium,4,Medium,0,1,17,Premium,27,Drought,In-Person,1,Update,12,Weekly,1,Toyota Harrier
+132,46,F,Widowed,61703,Turkana,Livestock,2020,144,1,2,1000,Not Renewed,4,1,Apartment,,Premium,9,Medium,2,0,329,Comprehensive,23,Death,In-Person,7,Query,12,Weekly,5,Nissan X-Trail
+101,68,F,Divorced,51350,Nairobi,Education,2016,121,2,1,1100,Renewed,1,3,Rental,Term,Premium,8,Low,2,1,448,Premium,27,Floods,Text,1,Update,11,Quarterly,5,Toyota Harrier
+181,56,M,Widowed,51488,Mombasa,Education,2021,103,3,1,200,Renewed,1,0,Bungalow,Term,Premium,2,Low,0,1,361,Basic,23,Maturity,In-Person,10,Complaint,29,Annually,5,Mercedes
+79,41,M,Widowed,79043,Kisumu,Motor,2021,161,2,2,1200,Renewed,5,2,Apartment,,Basic,7,Medium,2,1,266,Premium,9,Accident,Text,9,Query,5,Weekly,5,Nissan X-Trail
+144,67,F,Married,58176,Garissa,Agricultural,2016,186,2,1,1000,Renewed,5,3,Bungalow,,Basic,2,Medium,1,0,165,Standard,13,Death,Skype,9,Complaint,12,Semi-Annual,5,Toyota Land Cruiser V8
+149,65,M,Married,34426,Kisumu,Property,2021,109,4,0,200,Not Renewed,1,1,Apartment,Whole,Premium,2,Low,0,0,492,Standard,7,Drought,Text,1,Query,15,Annually,5,Nissan X-Trail
+187,50,M,Single,71827,Garissa,Agricultural,2021,172,1,2,2800,Renewed,4,3,,Term,Premium,7,Medium,2,1,44,Standard,2,Death,In-Person,10,Update,13,Semi-Annual,1,Mazda CX-5
+24,44,F,Widowed,55919,Nakuru,Agricultural,2015,199,4,0,1200,Not Renewed,5,3,Rental,Whole,Basic,1,High,2,1,346,Premium,4,Floods,Skype,1,Update,23,Semi-Annual,5,Mazda CX-5
+142,27,F,Married,65003,Nakuru,Motor,2016,193,2,2,1400,Renewed,4,2,Bungalow,Term,Basic,4,Medium,2,0,83,Premium,9,Death,Email,2,Query,26,Quarterly,3,Mazda CX-5
+118,62,F,Divorced,73465,Kiambu,Motor,2020,134,0,1,300,Not Renewed,3,0,,Whole,,4,Medium,1,1,55,Basic,13,Theft,Text,5,Feedback,15,Monthly,3,Nissan X-Trail
+86,41,M,Single,49790,Kisumu,Agricultural,2021,110,4,2,900,Renewed,4,0,Bungalow,,Basic,3,Low,1,0,362,Premium,3,Theft,Text,2,Query,3,Weekly,5,Mercedes
+49,42,F,Divorced,32975,Busia,Agricultural,2015,109,4,2,1000,Not Renewed,2,2,,Whole,Basic,8,Low,0,0,177,Premium,17,Maturity,Text,5,Query,24,Monthly,5,Nissan X-Trail
+50,45,F,Divorced,69291,Kiambu,Agricultural,2020,170,3,2,2900,Not Renewed,5,2,Apartment,Whole,Premium,8,High,2,1,448,Premium,20,Floods,Skype,5,Update,25,Weekly,5,Mazda CX-5
+70,68,F,Single,76311,Nairobi,Health,2020,172,1,0,1600,Renewed,3,0,Rental,,,7,High,2,0,348,Basic,24,Floods,Text,5,Query,9,Semi-Annual,5,Mercedes
+170,19,M,Married,66662,Busia,Agricultural,2015,180,1,0,900,Not Renewed,3,1,Apartment,,Premium,10,Medium,0,1,451,Comprehensive,22,Maturity,In-Person,5,Update,10,Annually,5,Mercedes
+164,64,F,Married,74369,Turkana,Agricultural,2017,158,0,0,500,Not Renewed,5,1,Bungalow,,Basic,4,Medium,0,1,101,Basic,20,Drought,Skype,4,Update,30,Annually,5,Toyota Harrier
+193,58,F,Divorced,74040,Busia,Property,2015,100,2,0,3000,Renewed,1,2,Apartment,Whole,Basic,9,High,2,0,233,Premium,4,Maturity,Text,9,Complaint,12,Monthly,5,Nissan X-Trail
+96,43,F,Divorced,38833,Eldoret,Education,2019,124,1,0,2200,Not Renewed,3,1,Apartment,,Basic,7,High,1,0,404,Comprehensive,23,Theft,In-Person,3,Feedback,28,Weekly,5,Toyota Land Cruiser V8
+198,27,M,Widowed,67379,Nairobi,Livestock,2021,138,4,0,800,Renewed,2,2,Bungalow,Term,Premium,4,Medium,0,0,224,Premium,6,Maturity,Skype,5,Update,16,Weekly,5,Nissan X-Trail
+95,56,F,Widowed,37930,Garissa,Education,2019,126,2,1,800,Not Renewed,3,1,Rental,Term,,3,Medium,0,0,193,Comprehensive,12,Drought,Phone Call,10,Complaint,27,Semi-Annual,5,Toyota Harrier
+1,67,M,Divorced,65470,Garissa,Agricultural,2019,190,3,2,2300,Renewed,1,0,Apartment,Whole,Premium,5,Medium,2,0,105,Standard,17,Theft,In-Person,1,Update,4,Semi-Annual,4,Mercedes
+114,51,M,Single,70148,Kiambu,Education,2015,185,4,1,1900,Renewed,3,2,Rental,Term,Premium,5,High,1,1,210,Basic,9,Floods,Phone Call,0,Feedback,5,Semi-Annual,5,Mercedes
+179,63,M,Widowed,54536,Nairobi,Property,2018,112,1,1,300,Renewed,5,1,Rental,,Basic,1,Medium,2,0,257,Standard,16,Accident,Text,3,Feedback,10,Annually,5,Mazda CX-5
+37,65,F,Widowed,72252,Narok,Education,2020,190,3,2,2900,Not Renewed,4,2,Bungalow,Whole,Basic,6,Medium,2,0,238,Comprehensive,14,Theft,Phone Call,9,Query,7,Monthly,5,Mazda CX-5
+163,66,M,Divorced,68299,Nairobi,Agricultural,2021,128,1,1,1700,Renewed,1,1,Bungalow,,Basic,6,Low,1,1,295,Basic,25,Theft,Text,1,Query,3,Weekly,5,Mercedes
+49,42,M,Divorced,32975,Eldoret,Health,2015,109,4,2,1000,Not Renewed,2,2,Rental,Term,,8,High,0,0,177,Basic,17,Drought,Phone Call,5,Query,24,Annually,5,Subaru Forester
+94,55,M,Divorced,66167,Nairobi,Agricultural,2018,126,3,2,1000,Not Renewed,1,1,Apartment,Term,Basic,10,Low,0,1,479,Premium,10,Maturity,Text,4,Feedback,26,Quarterly,5,Mazda CX-5
+132,46,M,Married,61703,Nairobi,Health,2020,144,1,2,1000,Not Renewed,4,1,Rental,,,9,High,2,0,329,Comprehensive,23,Maturity,Phone Call,7,Update,12,Weekly,5,Mazda CX-5
+99,48,F,Married,35712,Kisumu,Agricultural,2019,148,4,2,1800,Not Renewed,2,1,Apartment,,Basic,7,Low,2,0,164,Basic,11,Natural Disaster,Phone Call,0,Query,24,Monthly,5,Nissan X-Trail
+43,27,F,Single,79697,Mombasa,Agricultural,2019,100,3,1,2200,Renewed,1,0,Bungalow,Term,Premium,5,Low,2,0,478,Comprehensive,3,Maturity,Email,4,Query,18,Semi-Annual,5,Nissan X-Trail
+113,27,F,Single,67963,Narok,Health,2016,117,3,2,2200,Renewed,3,2,Apartment,Term,Basic,4,Medium,0,0,215,Standard,2,Drought,Text,8,Feedback,14,Semi-Annual,5,Toyota Land Cruiser V8
+150,28,F,Married,43116,Mombasa,Health,2019,144,1,1,400,Renewed,3,3,Rental,Term,Premium,3,Low,1,0,233,Premium,14,Maturity,Text,7,Complaint,7,Weekly,5,Nissan X-Trail
+128,34,F,Married,43476,Nakuru,Property,2018,133,2,2,2400,Not Renewed,4,1,Apartment,Term,,4,Medium,0,1,17,Standard,27,Maturity,Phone Call,1,Update,12,Annually,1,Nissan X-Trail
+1,67,M,Single,65470,Busia,Livestock,2019,190,3,2,2300,Not Renewed,1,0,Rental,,Premium,5,Medium,2,0,105,Premium,17,Maturity,Email,1,Complaint,4,Semi-Annual,4,Mazda CX-5
+139,33,M,Single,39109,Nakuru,Health,2016,150,1,1,2400,Renewed,3,1,Rental,,Basic,10,Low,0,0,65,Premium,12,Drought,Skype,4,Query,7,Quarterly,1,Toyota Harrier
+115,46,F,Widowed,61654,Nairobi,Agricultural,2019,102,4,2,200,Not Renewed,4,0,Apartment,Term,Basic,8,Low,1,1,239,Basic,15,Theft,In-Person,8,Update,7,Monthly,5,Mercedes
+44,53,M,Widowed,55631,Kisumu,Property,2020,126,4,1,1300,Renewed,1,2,Rental,,Premium,8,High,0,0,190,Comprehensive,22,Maturity,Phone Call,8,Query,12,Weekly,5,Nissan X-Trail
+187,50,F,Widowed,71827,Kisumu,Motor,2021,172,1,2,2800,Renewed,4,3,Bungalow,Whole,Premium,7,Medium,2,1,44,Comprehensive,2,Death,Phone Call,10,Update,13,Annually,1,Mazda CX-5
+128,34,M,Divorced,43476,Garissa,Motor,2018,133,2,2,2400,Not Renewed,4,1,Rental,,Basic,4,Low,0,1,17,Premium,27,Maturity,Email,1,Feedback,12,Semi-Annual,1,Nissan X-Trail
+24,44,F,Single,55919,Turkana,Motor,2015,199,4,0,1200,Not Renewed,5,3,Bungalow,,Basic,1,Medium,2,1,346,Standard,4,Drought,In-Person,1,Update,23,Semi-Annual,5,Subaru Forester
+188,53,M,Widowed,58529,Garissa,Property,2019,154,4,2,3000,Renewed,3,0,Rental,Term,Basic,4,High,2,1,382,Comprehensive,17,Maturity,Skype,6,Feedback,12,Monthly,5,Mercedes
+131,53,F,Single,79416,Kiambu,Livestock,2020,117,0,1,1500,Renewed,4,0,Apartment,Term,Basic,5,Low,0,1,347,Premium,27,Drought,Text,0,Feedback,7,Quarterly,5,Mercedes
+122,42,M,Divorced,59514,Eldoret,Health,2018,108,4,1,2000,Renewed,1,1,Apartment,Term,,4,High,2,0,254,Basic,3,Death,In-Person,4,Query,4,Weekly,5,Toyota Land Cruiser V8
+99,48,F,Divorced,35712,Kisumu,Property,2019,148,4,2,1800,Renewed,2,1,Rental,Term,,7,Medium,2,0,164,Premium,11,Maturity,Email,0,Complaint,24,Weekly,5,Nissan X-Trail
+63,64,M,Divorced,67279,Eldoret,Motor,2016,170,3,1,1800,Not Renewed,5,2,Rental,,Premium,5,Medium,0,1,276,Standard,18,Theft,Email,7,Feedback,8,Semi-Annual,5,Mercedes
+164,64,M,Divorced,74369,Busia,Agricultural,2017,158,0,0,500,Renewed,5,1,Rental,,Basic,4,Low,0,1,101,Comprehensive,20,Accident,Phone Call,4,Update,30,Quarterly,5,Toyota Harrier
+124,22,F,Single,60145,Eldoret,Agricultural,2018,124,3,0,1400,Not Renewed,3,3,,Whole,Basic,10,Low,1,0,382,Premium,24,Accident,In-Person,4,Update,15,Semi-Annual,5,Toyota Land Cruiser V8
+196,34,F,Single,75010,Nakuru,Health,2019,162,4,0,2000,Not Renewed,4,1,Rental,Term,Basic,1,Low,1,0,98,Comprehensive,17,Maturity,Phone Call,9,Update,16,Monthly,5,Toyota Harrier
+83,29,F,Divorced,57732,Garissa,Education,2017,192,4,0,1600,Renewed,2,1,Bungalow,,Premium,2,Medium,1,1,83,Premium,16,Theft,Phone Call,9,Complaint,14,Monthly,4,Mazda CX-5
+175,20,M,Single,39507,Mombasa,Motor,2015,190,1,2,1900,Renewed,2,3,Rental,,Premium,4,Medium,1,0,133,Comprehensive,2,Maturity,Phone Call,7,Complaint,30,Semi-Annual,5,Mercedes
+149,65,M,Divorced,34426,Kitui,Agricultural,2021,109,4,0,200,Not Renewed,1,1,Bungalow,,Basic,2,Low,0,0,492,Premium,7,Theft,Email,1,Complaint,15,Weekly,5,Subaru Forester
+51,31,F,Married,39309,Kisumu,Education,2017,122,2,0,500,Renewed,1,1,Rental,Whole,,10,Medium,1,0,53,Premium,5,Maturity,Skype,6,Query,8,Weekly,3,Mercedes
+156,19,M,Married,50111,Turkana,Livestock,2016,161,3,0,1800,Renewed,2,0,Bungalow,,Premium,6,High,2,0,270,Premium,21,Maturity,Skype,0,Complaint,8,Quarterly,5,Subaru Forester
+15,31,F,Single,59514,Kiambu,Agricultural,2015,149,3,1,2300,Renewed,2,0,Rental,Term,Basic,8,Low,1,0,90,Basic,5,Property Damage,Text,9,Update,26,Weekly,3,Toyota Land Cruiser V8
+42,48,M,Single,37546,Narok,Property,2015,173,2,1,1600,Not Renewed,2,0,Bungalow,Whole,Premium,4,Low,0,1,172,Comprehensive,28,Drought,Text,5,Query,20,Weekly,5,Mazda CX-5
+59,41,M,Single,45951,Turkana,Property,2021,196,2,1,1500,Not Renewed,4,0,Apartment,Term,Basic,1,High,0,0,137,Premium,4,Floods,Phone Call,2,Complaint,21,Semi-Annual,5,Mazda CX-5
+194,48,M,Divorced,43980,Narok,Agricultural,2015,109,4,2,1200,Not Renewed,1,3,Rental,,Basic,9,Medium,1,0,243,Comprehensive,13,Maturity,Email,4,Update,13,Semi-Annual,5,Mercedes
+37,65,F,Widowed,72252,Kiambu,Motor,2020,190,3,2,2900,Not Renewed,4,2,Bungalow,Whole,Premium,6,Low,2,0,238,Premium,14,Floods,Email,9,Complaint,7,Semi-Annual,5,Toyota Harrier
+11,35,M,Single,78636,Busia,Agricultural,2018,113,0,2,2500,Not Renewed,3,2,,Whole,Premium,10,High,0,1,469,Premium,17,Floods,Skype,8,Complaint,24,Quarterly,5,Mazda CX-5
+87,45,F,Widowed,58240,Kiambu,Property,2018,134,3,1,2700,Renewed,3,1,Rental,,Premium,2,High,2,0,390,Standard,28,Theft,In-Person,3,Feedback,13,Monthly,5,Toyota Harrier
+44,53,M,Divorced,55631,Kiambu,Motor,2020,126,4,1,1300,Not Renewed,1,2,Bungalow,Whole,,8,Medium,0,0,190,Premium,22,Death,Text,8,Update,12,Monthly,5,Subaru Forester
+105,63,M,Divorced,34305,Narok,Agricultural,2021,164,1,2,200,Renewed,2,1,Bungalow,,Basic,5,Low,1,1,306,Premium,25,Accident,Text,6,Query,7,Weekly,5,Mazda CX-5
+12,20,M,Married,62210,Nairobi,Motor,2017,173,0,1,1300,Renewed,1,0,Apartment,Term,,10,High,2,1,217,Comprehensive,10,Death,Phone Call,0,Feedback,23,Quarterly,5,Toyota Harrier
+3,19,M,Married,37310,Nakuru,Health,2021,123,3,2,700,Not Renewed,1,3,Apartment,,,5,Medium,2,0,351,Basic,4,Maturity,Text,5,Update,15,Weekly,5,Mercedes
+52,28,F,Married,35908,Narok,Agricultural,2019,182,1,1,3000,Renewed,4,2,Bungalow,Whole,,9,Low,1,0,366,Comprehensive,4,Natural Disaster,Phone Call,3,Feedback,16,Weekly,5,Toyota Harrier
+81,42,F,Single,34816,Turkana,Motor,2017,117,2,1,2400,Not Renewed,1,1,Bungalow,Whole,Basic,8,Low,0,0,37,Comprehensive,25,Floods,Email,4,Update,23,Annually,2,Mercedes
+33,54,F,Single,66485,Eldoret,Agricultural,2019,135,0,1,2500,Renewed,2,3,Bungalow,,,5,Medium,1,0,462,Basic,23,Accident,Skype,8,Update,6,Monthly,5,Subaru Forester
+183,48,M,Married,40544,Nairobi,Motor,2015,178,0,2,1100,Not Renewed,1,2,Bungalow,Whole,Premium,9,High,2,1,395,Comprehensive,26,Property Damage,In-Person,5,Complaint,30,Weekly,5,Mazda CX-5
+129,31,M,Single,42963,Narok,Livestock,2018,110,0,2,2900,Not Renewed,5,1,Rental,Term,Basic,5,Medium,1,0,303,Premium,23,Death,Phone Call,2,Complaint,16,Annually,5,Subaru Forester
+39,23,F,Single,75556,Kitui,Health,2018,129,1,0,1500,Renewed,3,2,Apartment,Term,Premium,10,Low,1,1,51,Premium,23,Maturity,Email,10,Update,28,Quarterly,2,Toyota Harrier
+20,59,M,Married,51397,Turkana,Health,2016,190,4,2,2600,Renewed,2,0,Bungalow,,Basic,6,Medium,0,0,133,Basic,21,Drought,Skype,3,Update,10,Semi-Annual,5,Mercedes
+175,20,F,Single,39507,Eldoret,Agricultural,2015,190,1,2,1900,Renewed,2,3,Rental,,Basic,4,High,1,0,133,Basic,2,Theft,Text,7,Feedback,30,Annually,5,Toyota Harrier
+43,27,F,Divorced,79697,Kiambu,Agricultural,2019,100,3,1,2200,Renewed,1,0,Rental,Term,Premium,5,High,2,0,478,Basic,3,Maturity,Text,4,Update,18,Quarterly,5,Subaru Forester
+116,47,F,Widowed,45035,Garissa,Motor,2016,108,0,1,2000,Renewed,4,1,Bungalow,,Premium,10,Medium,0,1,340,Premium,17,Death,Email,10,Query,26,Weekly,5,Mazda CX-5
+185,32,F,Widowed,58203,Busia,Livestock,2018,125,4,0,2900,Renewed,3,3,,,Premium,9,Low,2,0,17,Basic,14,Floods,In-Person,0,Feedback,3,Monthly,0,Nissan X-Trail
+189,54,F,Single,35047,Kisumu,Livestock,2019,123,2,1,600,Not Renewed,5,0,Apartment,,Premium,10,High,1,1,463,Premium,8,Theft,Skype,0,Feedback,28,Weekly,5,Subaru Forester
+78,32,F,Single,56843,Nairobi,Agricultural,2021,109,3,1,1700,Renewed,2,0,Rental,Term,Basic,8,High,2,1,430,Basic,4,Maturity,In-Person,7,Update,2,Weekly,5,Toyota Land Cruiser V8
+31,53,F,Widowed,74749,Eldoret,Property,2015,124,3,1,1500,Not Renewed,4,3,Apartment,Whole,Basic,9,Low,0,0,279,Comprehensive,23,Floods,Skype,2,Update,1,Semi-Annual,5,Nissan X-Trail
+25,31,F,Widowed,66285,Narok,Livestock,2015,115,2,2,1100,Not Renewed,3,1,Rental,,Premium,7,Low,1,0,494,Basic,18,Theft,Skype,3,Update,30,Quarterly,5,Nissan X-Trail
+126,33,F,Single,74042,Busia,Education,2018,103,4,1,500,Not Renewed,5,0,,Whole,Basic,2,Medium,1,0,43,Basic,20,Maturity,Text,10,Feedback,27,Quarterly,1,Toyota Harrier
+3,19,M,Divorced,37310,Kisumu,Agricultural,2021,123,3,2,700,Renewed,1,3,Apartment,Term,Basic,5,Medium,2,0,351,Comprehensive,4,Drought,Text,5,Query,15,Semi-Annual,5,Mercedes
+4,56,M,Married,44572,Turkana,Motor,2020,173,2,1,1900,Not Renewed,5,3,Rental,,,8,Low,2,0,273,Standard,26,Floods,Skype,2,Complaint,0,Annually,5,Toyota Harrier
+95,56,F,Single,37930,Garissa,Motor,2019,126,2,1,800,Renewed,3,1,,Whole,,3,High,0,0,193,Comprehensive,12,Accident,Skype,10,Update,27,Quarterly,5,Toyota Harrier
+108,66,F,Widowed,44041,Nakuru,Health,2016,101,4,0,2600,Renewed,2,2,Bungalow,,Premium,5,Low,2,0,464,Standard,8,Maturity,Email,7,Update,10,Annually,5,Mazda CX-5
+14,64,M,Single,58871,Eldoret,Education,2019,195,1,2,1300,Renewed,5,0,Bungalow,Term,Basic,2,High,0,1,461,Standard,2,Floods,Email,5,Update,11,Semi-Annual,5,Subaru Forester
+113,27,F,Married,67963,Narok,Livestock,2016,117,3,2,2200,Not Renewed,3,2,Rental,Term,,4,High,0,0,215,Basic,2,Maturity,Text,8,Query,14,Weekly,5,Toyota Harrier
+41,55,M,Widowed,72413,Kiambu,Property,2015,161,3,1,2400,Not Renewed,5,3,,Whole,,4,Low,2,1,61,Standard,28,Maturity,Text,10,Complaint,21,Weekly,3,Nissan X-Trail
+73,42,F,Single,54849,Eldoret,Health,2021,115,0,2,1900,Renewed,5,2,Apartment,Whole,,1,High,1,0,342,Basic,19,Natural Disaster,Text,5,Update,17,Quarterly,5,Toyota Land Cruiser V8
+20,59,F,Single,51397,Narok,Motor,2016,190,4,2,2600,Renewed,2,0,Rental,Whole,,6,Low,0,0,133,Basic,21,Drought,In-Person,3,Update,10,Semi-Annual,5,Toyota Harrier
+96,43,M,Single,38833,Nakuru,Agricultural,2019,124,1,0,2200,Renewed,3,1,Apartment,Term,Premium,7,High,1,0,404,Comprehensive,23,Maturity,Email,3,Update,28,Monthly,5,Mazda CX-5
+73,42,F,Single,54849,Eldoret,Agricultural,2021,115,0,2,1900,Renewed,5,2,Bungalow,Term,Basic,1,Medium,1,0,342,Premium,19,Drought,Email,5,Query,17,Weekly,5,Nissan X-Trail
+155,48,M,Divorced,32069,Eldoret,Property,2015,111,2,1,2700,Not Renewed,4,2,Bungalow,Term,Basic,8,High,2,0,330,Premium,9,Accident,Text,5,Feedback,15,Semi-Annual,5,Subaru Forester
+195,24,F,Married,60967,Kisumu,Livestock,2015,124,0,1,0,Not Renewed,4,1,Rental,,Premium,4,Low,0,1,54,Comprehensive,27,Maturity,Skype,10,Complaint,26,Quarterly,1,Mazda CX-5
+181,56,M,Married,51488,Garissa,Agricultural,2021,103,3,1,200,Renewed,1,0,,,,2,Low,0,1,361,Comprehensive,23,Death,Email,10,Query,29,Weekly,5,Toyota Land Cruiser V8
+68,58,F,Widowed,34642,Turkana,Education,2020,108,3,0,2200,Not Renewed,4,0,Apartment,Term,Basic,10,High,2,1,244,Comprehensive,21,Theft,In-Person,3,Complaint,28,Annually,5,Nissan X-Trail
+62,64,M,Widowed,41644,Mombasa,Health,2021,159,0,1,1300,Not Renewed,1,3,Bungalow,Whole,Basic,1,Medium,1,0,169,Basic,25,Maturity,Email,3,Feedback,16,Weekly,5,Toyota Harrier
+15,31,F,Married,59514,Garissa,Motor,2015,149,3,1,2300,Not Renewed,2,0,Bungalow,Whole,,8,High,1,0,90,Standard,5,Death,Text,9,Query,26,Semi-Annual,3,Mercedes
+97,41,M,Single,64358,Turkana,Education,2020,114,2,2,1700,Not Renewed,5,3,Rental,Term,Basic,8,Low,2,0,220,Basic,17,Maturity,Skype,10,Feedback,8,Weekly,5,Mazda CX-5
+5,28,M,Widowed,33569,Mombasa,Education,2018,196,4,1,2100,Not Renewed,2,0,Apartment,Term,Basic,5,High,2,1,109,Comprehensive,19,Maturity,Text,2,Feedback,20,Weekly,5,Mercedes
+196,34,M,Single,75010,Garissa,Education,2019,162,4,0,2000,Renewed,4,1,Apartment,Term,,1,High,1,0,98,Basic,17,Accident,Phone Call,9,Update,16,Weekly,5,Subaru Forester
+140,56,M,Widowed,53547,Turkana,Health,2017,158,1,0,800,Not Renewed,2,0,,Term,,10,Medium,1,1,141,Premium,6,Floods,Text,4,Query,1,Semi-Annual,5,Mazda CX-5
+87,45,M,Widowed,58240,Turkana,Agricultural,2018,134,3,1,2700,Not Renewed,3,1,Rental,Term,Premium,2,High,2,0,390,Comprehensive,28,Accident,Text,3,Update,13,Annually,5,Toyota Harrier
+122,42,F,Widowed,59514,Busia,Agricultural,2018,108,4,1,2000,Renewed,1,1,Rental,Term,Premium,4,Low,2,0,254,Premium,3,Floods,In-Person,4,Feedback,4,Monthly,5,Subaru Forester
+110,59,F,Single,56639,Turkana,Livestock,2018,192,0,0,2000,Not Renewed,3,2,Rental,Whole,Basic,2,Low,0,1,254,Standard,5,Maturity,Email,3,Complaint,1,Semi-Annual,5,Toyota Harrier
+76,21,F,Divorced,44752,Kisumu,Livestock,2017,181,2,1,100,Renewed,5,0,Bungalow,Whole,Basic,8,Medium,1,1,446,Basic,23,Maturity,Phone Call,1,Query,23,Quarterly,5,Mazda CX-5
+185,32,M,Divorced,58203,Kiambu,Livestock,2018,125,4,0,2900,Renewed,3,3,Rental,,Basic,9,Low,2,0,17,Premium,14,Drought,Email,0,Update,3,Quarterly,0,Toyota Harrier
+17,57,F,Single,64224,Nakuru,Agricultural,2015,146,3,2,3000,Renewed,2,1,Rental,,Premium,3,Medium,2,1,102,Comprehensive,15,Maturity,Email,0,Query,4,Semi-Annual,5,Subaru Forester
+153,47,M,Divorced,53350,Kitui,Agricultural,2015,123,0,1,2000,Renewed,3,2,Bungalow,,Basic,8,Low,2,1,137,Standard,4,Death,Phone Call,7,Feedback,26,Annually,5,Toyota Land Cruiser V8
+158,69,M,Single,79445,Nakuru,Education,2016,189,2,2,2000,Not Renewed,1,2,,Term,Basic,4,Medium,1,0,35,Premium,14,Maturity,Skype,0,Query,10,Semi-Annual,2,Mercedes
