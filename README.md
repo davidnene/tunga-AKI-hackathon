@@ -70,9 +70,9 @@ https://tunga-chat-hackathon.streamlit.app/
 ## Project Contributors
 This project was developed by Strathmore University students pursuing a Masters Degree in Data Science and Analytics
 1. [David Nene](https://www.linkedin.com/in/davidnene) - Software Engineer|AI
-2. [Derrick Lubanga]() - Data Scientist
+2. [Derrick Lubanga](https://www.linkedin.com/in/lubanga99) - Data Scientist
 3. [Linda Kelda]() - Data Engineer
-4. [Chepkirui TOnui]() - BI Analyst
+4. [Chepkirui TOnui](https://www.linkedin.com/in/sharon-tonui-b158a4141) - BI Analyst
 
 ## Presentation Date
 **10th-May-2024**
