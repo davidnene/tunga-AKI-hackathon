@@ -17,3 +17,6 @@
 8. Among customers who have made inquiries in the last year, what is the most common communication means?
 
 9. What is the average time to resolution (in days) for customers who have made complaints?
+10. Plot a line graph of the number of claims made over the years
+11. generate a bar plot of the count of males and females.
+12. Plot a line chart of premium paid over time, based on policy start year.
