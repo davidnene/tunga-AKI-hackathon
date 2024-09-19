@@ -20,3 +20,7 @@
 10. Plot a line graph of the number of claims made over the years
 11. generate a bar plot of the count of males and females.
 12. Plot a line chart of premium paid over time, based on policy start year.
+13. plot a bar graph for basic and premium HealthInsurancePlan.
+14. What average age of customers.
+15. Plot a bar graph for the PolicyType.
+16. which is the most ClaimReason
