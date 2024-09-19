@@ -1,5 +1,6 @@
-from langchain import OpenAI
-from langchain.agents import create_pandas_dataframe_agent
+from langchain_community.llms import OpenAI
+from langchain_experimental.agents import create_pandas_dataframe_agent
+from langchain_community.chat_models import ChatOpenAI
 import pandas as pd
 import streamlit as st
 
@@ -25,13 +26,14 @@ def create_agent(filename: str):
     """
 
     # Create an OpenAI object.
-    llm = OpenAI(model_name = 'gpt-4-turbo')
+    # llm = OpenAI(model_name = 'gpt-4 ')
+    llm = ChatOpenAI(model="gpt-4-turbo")
 
     # Read the CSV file into a Pandas DataFrame.
     df = pd.read_csv(filename)
 
     # Create a Pandas DataFrame agent.
-    return create_pandas_dataframe_agent(llm, df, verbose=False)
+    return create_pandas_dataframe_agent(llm, df, verbose=False, allow_dangerous_code=True)
 
 
 def query_agent(agent, query):
